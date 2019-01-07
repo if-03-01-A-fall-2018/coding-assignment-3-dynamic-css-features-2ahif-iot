@@ -33,6 +33,10 @@ img.screenshot {
   padding-bottom: 1.5em;
 }
 
+img.board:hover {
+  transform: translate(-10px, -10px);
+}
+
 img.img-fluid {
   padding-right: 3em;
   padding-bottom: 1.5em;
