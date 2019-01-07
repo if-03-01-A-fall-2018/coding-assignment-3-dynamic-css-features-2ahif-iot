@@ -1,0 +1,53 @@
+ul .nobullet {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
+
+article {
+  margin-left: 1em;
+}
+
+article h1 {
+  padding-top: 0.25em;
+}
+
+article section {
+  margin-left: 1em;
+}
+
+section a {
+  text-decoration: none;
+}
+
+img.board {
+  width: 10%;
+  height: 10%;
+}
+
+img.screenshot {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 1.5em;
+}
+
+img.img-fluid {
+  padding-right: 3em;
+  padding-bottom: 1.5em;
+}
+
+.tabbed {
+  padding-left: 15px;
+}
+
+p, dd, dt, li {
+  font-size: 20px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

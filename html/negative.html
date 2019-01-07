@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IoT: Negative aspects</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-light active" href="index.html">Internet of Things</a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="usage.html">Usage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="positive.html">Positive aspects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="negative.html">Negative aspects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="dashbutton.html">Dash Button</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="discussion.html">Discussion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <article>
+      <h1>Negative aspects</h1>
+      <section>
+        <h2>Security issues</h2>
+        <p>Devices for average end consumers just have to work.<br>
+          Because of that, securing the devices often isn't that much of a topic for the manufacturers. Consequently, they can easily be hacked, leading to various serious problems.
+        </p>
+        <h3>Passwords: The never ending problem</h3>
+        <p><b>Default credentials are almost the biggest problem.</b><br>
+          In 2016, a bot net called <a href="https://en.wikipedia.org/wiki/Mirai_(malware)">Mirai</a> scanned the entire internet.<br>
+          After finding IoT devices like TVs, DVRs, routers or CCTV-cameras it tried to login and infect those with malicious code.
+        </p>
+        <p>Here's a list of the passwords tried by Mirai:</p>
+        <ul>
+          <li>root / root</li>
+          <li>root / admin</li>
+          <li>root / 1234</li>
+          <li>admin / admin</li>
+          <li>admin / password</li>
+        </ul>
+        <p>As you can see, these passwords are not secure at all.</p>
+        <p>In October 2016, the Mirai bot net executed a <a href="https://en.wikipedia.org/wiki/2016_Dyn_cyberattack">DDoS attack to Dyn</a>'s DNS servers.<br>
+          Websites like Amazon, GitHub, Slack, Twitter, Spotify and more were down for several hours.
+        </p>
+        <h3>Forwarded ports</h3>
+        <p>Port forwardings are a major issue, too.<br>Without forwarded ports, it wouldn't have been possible for Mirai to infect devices.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play#Problems_with_UPnP">UPnP</a> is a protocol for easier port handling.<br>
+          It doesn't require any authentication, meaning that any device can forward ports.
+        </p>
+        <p>IoT search engines scan for forwarded ports.<br>
+          These search engines scan the entire net for open ports and add them to their search index.<br>
+          Here's a screenshot of the most popular one, <a href="https://www.shodan.io">shodan.io</a>.
+        </p>
+        <img src="../img/shodan.png" alt="Screenshot of shodan.io" class="screenshot">
+      </section>
+    </article>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
