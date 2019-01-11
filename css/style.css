@@ -55,3 +55,9 @@ img.center {
   margin-left: auto;
   margin-right: auto;
 }
+
+.img-float-right{
+  padding-right: 2em;
+  padding-left: 1em;
+  float: right;
+}
