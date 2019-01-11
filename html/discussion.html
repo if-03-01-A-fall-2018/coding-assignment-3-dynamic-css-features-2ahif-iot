@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>IoT: Discussion</title>
+    <script>
+    function showOrHideDiv(elementId) {
+      var all = document.getElementsByCLassName("boarddivs");
+      all.style.display = "none";
+      var element = document.getElementById(elementId);
+
+      if(element.style.display === "none") {
+        element.style.display = "block";
+      } else {
+        element.style.display = "none";
+      }
+    }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
@@ -53,9 +66,21 @@
         <p>Some things might also not be <em>that easy</em> to set up or even require coding skills.</p>
         <h3>Creating selfmade projects using development boards</h3>
         <p>With development boards like Arduinos, NodeMCUs (including the ESP8266 WiFi adapter) or more sophisticated devices like the Raspberry Pi, people can build own projects for the IoT and more.</p>
-        <img alt="NodeMCU" title="NodeMCU" src="https://cdn.shopify.com/s/files/1/0174/1800/products/113990105_1_1024x1024.jpg?v=1443111738" class="board">
-        <img alt="Arduino UNO" title="Arduino UNO" src="https://cdn-reichelt.de/bilder/web/xxl_ws/B300/ARDUINO_UNO_A01.png" class="board">
-        <img alt="Raspberry Pi 3" title="Raspberry Pi 3" src="https://www.raspberrypi.org/app/uploads/2017/05/Raspberry-Pi-3-1-1619x1080.jpg" class="board">
+        <img alt="NodeMCU" onclick="showOrHideDiv('nodemcu')" title="NodeMCU" src="https://cdn.shopify.com/s/files/1/0174/1800/products/113990105_1_1024x1024.jpg?v=1443111738" class="board">
+        <img alt="Arduino UNO" onclick="showOrHideDiv('arduino')" title="Arduino UNO" src="https://cdn-reichelt.de/bilder/web/xxl_ws/B300/ARDUINO_UNO_A01.png" class="board">
+        <img alt="Raspberry Pi 3" onclick="showOrHideDiv('rpi')" title="Raspberry Pi 3" src="https://www.raspberrypi.org/app/uploads/2017/05/Raspberry-Pi-3-1-1619x1080.jpg" class="board">
+
+        <div id="nodemcu" style="display: none" class="boarddivs">
+          <p>Test nodemcu</p>
+        </div>
+
+        <div id="arduino" style="display: none" class="boarddivs">
+          <p>Test arduino</p>
+        </div>
+
+        <div id="rpi" style="display: none" class="boarddivs">
+          <p>Test rpi</p>
+        </div>
       </section>
     </article>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
