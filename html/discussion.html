@@ -7,16 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>IoT: Discussion</title>
     <script>
-    function showOrHideDiv(elementId) {
-      var all = document.getElementsByCLassName("boarddivs");
-      all.style.display = "none";
-      var element = document.getElementById(elementId);
-
-      if(element.style.display === "none") {
-        element.style.display = "block";
-      } else {
-        element.style.display = "none";
-      }
+    function showOrHide(elementId) {
+      document.getElementById("nodemcu").style.display = "none";
+      document.getElementById("arduino").style.display = "none";
+      document.getElementById("rpi").style.display = "none";
+      document.getElementById(elementId).style.display = "block";
     }
     </script>
   </head>
@@ -70,15 +65,15 @@
         <img alt="Arduino UNO" onclick="showOrHideDiv('arduino')" title="Arduino UNO" src="https://cdn-reichelt.de/bilder/web/xxl_ws/B300/ARDUINO_UNO_A01.png" class="board">
         <img alt="Raspberry Pi 3" onclick="showOrHideDiv('rpi')" title="Raspberry Pi 3" src="https://www.raspberrypi.org/app/uploads/2017/05/Raspberry-Pi-3-1-1619x1080.jpg" class="board">
 
-        <div id="nodemcu" style="display: none" class="boarddivs">
+        <div id="nodemcu" style="display: none" class="boarddivs" onclick="showOrHide('nodemcu')">
           <p>Test nodemcu</p>
         </div>
 
-        <div id="arduino" style="display: none" class="boarddivs">
+        <div id="arduino" style="display: none" class="boarddivs" onclick="showOrHide('arduino')">
           <p>Test arduino</p>
         </div>
 
-        <div id="rpi" style="display: none" class="boarddivs">
+        <div id="rpi" style="display: none" class="boarddivs" onclick="showOrHide('rpi')">
           <p>Test rpi</p>
         </div>
       </section>
