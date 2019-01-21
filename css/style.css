@@ -65,7 +65,7 @@ img.center {
 .home-box{
   height: 300px;
   width: 300px;
-  background-color: #28a745;
+  background-image: linear-gradient(to bottom right, #28a745, green);
   margin-top: 60px;
   margin-right: 60px;
   padding-top: 25px;
@@ -78,7 +78,7 @@ img.center {
 
 .home-box:hover{
   transform: scale(1.1);
-  background-color: #4ac63d;
+  background-image: linear-gradient(to bottom right, green, lightgreen);
 }
 
 .home-box a{
