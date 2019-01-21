@@ -73,6 +73,7 @@ img.center {
   font-size: 30px;
   transition: all .2s ease-in-out;
   border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .home-box:hover{
