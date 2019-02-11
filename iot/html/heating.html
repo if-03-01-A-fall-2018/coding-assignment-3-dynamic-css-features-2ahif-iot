@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+
+    <title>IoT: Heating stats</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="general.html">General information</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="usage.html">Usage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="positive.html">Positive aspects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="negative.html">Negative aspects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="dashbutton.html">Dash Button</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="discussion.html">Discussion</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<article>
+    <section>
+    <h1>Heating stats</h1>
+    <p>Live data requested from a heating system in Abtenau, Austria.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Temperatures</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Outside temp.</td>
+                <td id="outside-temp">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Return flow</td>
+                <td id="return-flow">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Heating flow</td>
+                <td id="heating-flow">Loading...</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <p style="margin-top: 1em">
+            <b>Data requested from heating at:  </b> <span id="last-request">(no request sent yet)</span>
+            <br>
+            The displayed data refreshes every minute.
+            Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
+        </p>
+    </section>
+
+    <script>
+        function runDataGrabber() {
+            var heatingData = jQuery.getJSON("https://www.wallinger-online.at/heating/", null, replaceData);
+
+            function replaceData() {
+                document.getElementById("outside-temp").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Aussen"].Value + " °C";
+                document.getElementById("return-flow").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Ruecklauf"].Value + " °C";
+                document.getElementById("heating-flow").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Vorlauf"].Value + " °C";
+
+                document.getElementById("last-request").innerHTML = heatingData.responseJSON.Results[0].Readings["Zeit"].Value;
+            }
+        }
+
+        runDataGrabber();
+        var timer = setInterval(runDataGrabber, 60 * 1000);
+    </script>
+</article>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

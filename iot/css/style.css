@@ -97,3 +97,13 @@ div.title{
   background-color: #28a745;
   color: #ffffff;
 }
+
+table, th, td
+{
+  border: 1px solid gray;
+}
+
+td
+{
+  width: 10em;
+}
