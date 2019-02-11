@@ -1,0 +1,18 @@
+{
+  "heating-off": 0,
+  "water-off": 0,
+  "temperature": {
+    "outside": 10.3,
+    "outside-1h": 10.9,
+    "outside-24h": 7.2,
+    "return-flow": 28.6,
+    "return-flow-set": 27.0,
+    "heater-flow": 34.1,
+    "water": 49.1,
+    "water-set": 49.0
+  },
+  "slope": 25.0,
+  "heating-hysteresis": 2.0,
+  "water-hysteresis": 6.0,
+  "refreshed": "11.02.19 08:40:21"
+}
