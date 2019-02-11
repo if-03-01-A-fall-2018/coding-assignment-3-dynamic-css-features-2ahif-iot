@@ -41,105 +41,103 @@
     </div>
 </nav>
 <article>
-    <section>
     <h1>Heating stats</h1>
     <p>Live data requested from a heating system in Abtenau, Austria.</p>
 
     <table>
         <thead>
-            <tr>
-                <th colspan="2">Temperatures</th>
-            </tr>
+        <tr>
+            <th colspan="2">Temperatures</th>
+        </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Outside temp.</td>
-                <td id="outside-temp">Loading...</td>
-            </tr>
+        <tr>
+            <td>Outside temp.</td>
+            <td id="outside-temp">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Heating flow</td>
-                <td id="heating-flow">Loading...</td>
-            </tr>
+        <tr>
+            <td>Heating flow</td>
+            <td id="heating-flow">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Return flow</td>
-                <td id="return-flow">Loading...</td>
-            </tr>
+        <tr>
+            <td>Return flow</td>
+            <td id="return-flow">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Return flow (set)</td>
-                <td id="return-flow-set">Loading...</td>
-            </tr>
+        <tr>
+            <td>Return flow (set)</td>
+            <td id="return-flow-set">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Warm water</td>
-                <td id="warm-water">Loading...</td>
-            </tr>
+        <tr>
+            <td>Warm water</td>
+            <td id="warm-water">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Evaporator</td>
-                <td id="evaporator">Loading...</td>
-            </tr>
+        <tr>
+            <td>Evaporator</td>
+            <td id="evaporator">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Condenser</td>
-                <td id="condenser">Loading...</td>
-            </tr>
+        <tr>
+            <td>Condenser</td>
+            <td id="condenser">Loading...</td>
+        </tr>
         </tbody>
     </table>
 
-        <table>
-            <thead>
-            <tr>
-                <th colspan="2">Settings</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Mode</td>
-                <td id="mode">Loading...</td>
-            </tr>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="2">Settings</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mode</td>
+            <td id="mode">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>CPU boot date</td>
-                <td id="cpu-date">Loading...</td>
-            </tr>
+        <tr>
+            <td>CPU boot date</td>
+            <td id="cpu-date">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>CPU boot time</td>
-                <td id="cpu-time">Loading...</td>
-            </tr>
+        <tr>
+            <td>CPU boot time</td>
+            <td id="cpu-time">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Heating: Increase off</td>
-                <td id="ht-inc-off">Loading...</td>
-            </tr>
+        <tr>
+            <td>Heating: Increase off</td>
+            <td id="ht-inc-off">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Heating: Increase on</td>
-                <td id="ht-inc-on">Loading...</td>
-            </tr>
+        <tr>
+            <td>Heating: Increase on</td>
+            <td id="ht-inc-on">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Heating hysteresis</td>
-                <td id="ht-hyst">Loading...</td>
-            </tr>
+        <tr>
+            <td>Heating hysteresis</td>
+            <td id="ht-hyst">Loading...</td>
+        </tr>
 
-            <tr>
-                <td>Compr. working hours</td>
-                <td id="compr-hours">Loading...</td>
-            </tr>
-            </tbody>
-        </table>
+        <tr>
+            <td>Compr. working hours</td>
+            <td id="compr-hours">Loading...</td>
+        </tr>
+        </tbody>
+    </table>
 
-        <p style="margin-top: 1em">
-            <b>Data requested at:  </b> <span id="last-request">(no request sent yet)</span>
-            <br>
-            The displayed data refreshes every minute.
-            Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
-        </p>
-    </section>
+    <p style="margin-top: 1em">
+        <b>Data requested at: </b> <span id="last-request">(no request sent yet)</span>
+        <br>
+        The displayed data refreshes every minute.
+        Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
+    </p>
 
     <script>
         function runDataGrabber() {
