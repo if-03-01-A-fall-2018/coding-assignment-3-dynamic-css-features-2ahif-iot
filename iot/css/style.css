@@ -103,7 +103,12 @@ table, th, td
   border: 1px solid gray;
 }
 
+table
+{
+  display: inline-block;
+}
+
 td
 {
-  width: 10em;
+  width: 12em;
 }

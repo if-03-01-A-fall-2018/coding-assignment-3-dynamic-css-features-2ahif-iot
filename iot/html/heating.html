@@ -58,19 +58,83 @@
             </tr>
 
             <tr>
+                <td>Heating flow</td>
+                <td id="heating-flow">Loading...</td>
+            </tr>
+
+            <tr>
                 <td>Return flow</td>
                 <td id="return-flow">Loading...</td>
             </tr>
 
             <tr>
-                <td>Heating flow</td>
-                <td id="heating-flow">Loading...</td>
+                <td>Return flow (set)</td>
+                <td id="return-flow-set">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Warm water</td>
+                <td id="warm-water">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Evaporator</td>
+                <td id="evaporator">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Condenser</td>
+                <td id="condenser">Loading...</td>
             </tr>
         </tbody>
     </table>
 
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2">Settings</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Mode</td>
+                <td id="mode">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>CPU boot date</td>
+                <td id="cpu-date">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>CPU boot time</td>
+                <td id="cpu-time">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Heating: Increase off</td>
+                <td id="ht-inc-off">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Heating: Increase on</td>
+                <td id="ht-inc-on">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Heating hysteresis</td>
+                <td id="ht-hyst">Loading...</td>
+            </tr>
+
+            <tr>
+                <td>Compr. working hours</td>
+                <td id="compr-hours">Loading...</td>
+            </tr>
+            </tbody>
+        </table>
+
         <p style="margin-top: 1em">
-            <b>Data requested from heating at:  </b> <span id="last-request">(no request sent yet)</span>
+            <b>Data requested at:  </b> <span id="last-request">(no request sent yet)</span>
             <br>
             The displayed data refreshes every minute.
             Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
@@ -83,8 +147,20 @@
 
             function replaceData() {
                 document.getElementById("outside-temp").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Aussen"].Value + " °C";
-                document.getElementById("return-flow").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Ruecklauf"].Value + " °C";
                 document.getElementById("heating-flow").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Vorlauf"].Value + " °C";
+                document.getElementById("return-flow").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Ruecklauf"].Value + " °C";
+                document.getElementById("return-flow-set").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Ruecklauf-Soll"].Value + " °C";
+                document.getElementById("warm-water").innerHTML = heatingData.responseJSON.Results[0].Readings["Ww-Temp"].Value + " °C";
+                document.getElementById("evaporator").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Verdampfer"].Value + " °C";
+                document.getElementById("condenser").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Kondensator"].Value + " °C";
+
+                document.getElementById("mode").innerHTML = heatingData.responseJSON.Results[0].Readings["Betriebs-Mode"].Value;
+                document.getElementById("cpu-date").innerHTML = heatingData.responseJSON.Results[0].Readings["CPU-Boot-Datum"].Value;
+                document.getElementById("cpu-time").innerHTML = heatingData.responseJSON.Results[0].Readings["CPU-Boot-Zeit"].Value;
+                document.getElementById("ht-inc-off").innerHTML = heatingData.responseJSON.Results[0].Readings["Hz-Anhebung-Aus"].Value;
+                document.getElementById("ht-inc-on").innerHTML = heatingData.responseJSON.Results[0].Readings["Hz-Anhebung-Ein"].Value;
+                document.getElementById("ht-hyst").innerHTML = heatingData.responseJSON.Results[0].Readings["Hz-Hysterese"].Value;
+                document.getElementById("compr-hours").innerHTML = heatingData.responseJSON.Results[0].Readings["KomprBetrStunden"].Value;
 
                 document.getElementById("last-request").innerHTML = heatingData.responseJSON.Results[0].Readings["Zeit"].Value;
             }
