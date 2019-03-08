@@ -66,8 +66,8 @@ img.center {
   width: 300px;
   background-image: linear-gradient(to bottom right, #28a745, green);
   margin-top: 60px;
-  margin-right: 30px;
-  margin-left: 43px;
+  margin-right: 20px;
+  margin-left: 20px;
   padding-top: 25px;
   text-align: center;
   font-size: 30px;
@@ -120,4 +120,10 @@ footer {
   font-size: 30px;
   text-align: center;
   background-color: grey;
+}
+
+div.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
