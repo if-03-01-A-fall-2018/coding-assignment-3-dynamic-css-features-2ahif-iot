@@ -1,5 +1,9 @@
 function runDataGrabber() {
     var heatingData = jQuery.getJSON("https://www.wallinger-online.at/heating/", null, replaceData);
+    var logData = jQuery.getJSON("https://www.wallinger-online.at/heating/log.php", null, parseData);
+    function parseData() {
+      console.log("Hallo  ");
+    }
 
     function replaceData() {
         document.getElementById("outside-temp").innerHTML = heatingData.responseJSON.Results[0].Readings["Temp-Aussen"].Value + " °C";
@@ -20,7 +24,11 @@ function runDataGrabber() {
 
         document.getElementById("last-request").innerHTML = heatingData.responseJSON.Results[0].Readings["Zeit"].Value;
     }
+
+
 }
+
+
 
 runDataGrabber();
 var timer = setInterval(runDataGrabber, 60 * 1000);
