@@ -1,8 +1,9 @@
 function runDataGrabber() {
     var heatingData = jQuery.getJSON("https://www.wallinger-online.at/heating/", null, replaceData);
-    var logData = jQuery.getJSON("https://www.wallinger-online.at/heating/log.php", null, parseData);
+    var logData = jQuery.get("https://www.wallinger-online.at/heating/log.php", null, parseData);
+
     function parseData() {
-      console.log("Hallo  ");
+      console.log("It works!");
     }
 
     function replaceData() {
