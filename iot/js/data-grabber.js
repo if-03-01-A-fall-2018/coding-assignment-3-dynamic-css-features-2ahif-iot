@@ -3,7 +3,17 @@ function runDataGrabber() {
     var logData = jQuery.get("https://www.wallinger-online.at/heating/log.php", null, parseData);
 
     function parseData() {
-      console.log("It works!");
+      var logDataArray = logData.responseText.split('\n');
+      for (var i = logDataArray.length - 50; i < logDataArray.length - 1; i++) {
+        var currLine = logDataArray[i].split(' ');
+        var dateString = currLine[0].replace('_', 'T');
+        var date = new Date(dateString);
+        date.setTime(date.getTime() + (60*60*1000)); 
+        var reading = currLine[2].substring(0, currLine[2].length - 1);
+        var readingValue = currLine[3];
+        console.log(date);
+      }
+
     }
 
     function replaceData() {
@@ -25,11 +35,7 @@ function runDataGrabber() {
 
         document.getElementById("last-request").innerHTML = heatingData.responseJSON.Results[0].Readings["Zeit"].Value;
     }
-
-
 }
-
-
 
 runDataGrabber();
 var timer = setInterval(runDataGrabber, 60 * 1000);
