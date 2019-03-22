@@ -143,3 +143,7 @@ div.links a{
 div.links:hover{
   background-image: linear-gradient(to bottom right, green, lightgreen);
 }
+
+input {
+  width: 99%;
+}
