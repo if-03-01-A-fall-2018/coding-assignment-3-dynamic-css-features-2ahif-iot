@@ -144,6 +144,6 @@ div.links:hover{
   background-image: linear-gradient(to bottom right, green, lightgreen);
 }
 
-input {
-  width: 99%;
+.noUi-connect {
+    background: #28a745 !important;
 }
