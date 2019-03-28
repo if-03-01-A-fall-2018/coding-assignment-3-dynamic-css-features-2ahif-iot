@@ -8,12 +8,10 @@ function runDataGrabber() {
         var currLine = logDataArray[i].split(' ');
         var dateString = currLine[0].replace('_', 'T');
         var date = new Date(dateString);
-        date.setTime(date.getTime() + (60*60*1000)); 
+        date.setTime(date.getTime() + (60*60*1000));
         var reading = currLine[2].substring(0, currLine[2].length - 1);
         var readingValue = currLine[3];
-        console.log(date);
       }
-
     }
 
     function replaceData() {
