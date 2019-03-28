@@ -143,7 +143,3 @@ div.links a{
 div.links:hover{
   background-image: linear-gradient(to bottom right, green, lightgreen);
 }
-
-.noUi-connect {
-    background: #28a745 !important;
-}
