@@ -91,13 +91,14 @@ function printChart() {
         }
     });
 };
-printChart();
+
+
 
 dateSlider.noUiSlider.on('update', function(values, handle) {
     dateValues[handle].innerHTML = formatDate(new Date(+values[handle]));
 
 });
-
+printChart();
 dateSlider.noUiSlider.on('change', function(values, handle) {
     printChart();
 });
