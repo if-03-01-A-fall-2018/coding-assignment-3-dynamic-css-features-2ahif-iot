@@ -11,7 +11,6 @@ function runDataGrabber() {
      })
      .then(json => {
          heatingData = json;
-         console.log(heatingData);
          replaceData();
      })
      .catch(function () {
@@ -27,7 +26,6 @@ function runDataGrabber() {
      })
      .then(text => {
          logData = text;
-         console.log(logData);
          parseData();
      })
      .catch(function () {
