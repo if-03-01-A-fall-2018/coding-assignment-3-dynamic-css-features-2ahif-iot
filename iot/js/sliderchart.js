@@ -92,8 +92,6 @@ function printChart() {
     });
 };
 
-
-
 dateSlider.noUiSlider.on('update', function(values, handle) {
     dateValues[handle].innerHTML = formatDate(new Date(+values[handle]));
 
