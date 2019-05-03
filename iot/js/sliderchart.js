@@ -55,6 +55,40 @@ var dateValues = [
 ];
 
 function printChart() {
+  var data = {
+    labels: [],
+    datasets: [
+      {
+        label: "Temperature",
+        fillColor: "rgba(220, 220, 220, 0.2)",
+        strokeColor: "rgba(1, 1, 1, 1)",
+        pointColor: "rgba(1, 1, 1, 1)",
+        pointStrokeColor: "rgba(1, 1, 1, 1)",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(220, 220, 220, 1)",
+        data: []
+      },
+      {}
+    ]
+  };
+
+  fetch('http://127.0,0,1:3000/temps')
+.then(response => {
+  return response.json()
+})
+.then(data => {
+  // Work with JSON data here
+  console.log(data)
+})
+.catch(err => {
+
+})
+
+    var outsideData = [];
+    var heatingFlowData = [];
+    var returnFlowData = [];
+    var warmWaterData = [];
+
     var ctx = document.getElementById("tempChart").getContext("2d");
 
     new Chart(ctx, {
@@ -94,8 +128,8 @@ function printChart() {
 
 dateSlider.noUiSlider.on('update', function(values, handle) {
     dateValues[handle].innerHTML = formatDate(new Date(+values[handle]));
-
 });
+
 printChart();
 dateSlider.noUiSlider.on('change', function(values, handle) {
     printChart();
