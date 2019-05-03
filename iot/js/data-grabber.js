@@ -34,13 +34,26 @@ function runDataGrabber() {
 
     function parseData() {
       var logDataArray = logData.split('\n');
-      for (var i = logDataArray.length - 50; i < logDataArray.length - 1; i++) {
+      for (var i = logDataArray.length - 100; i < logDataArray.length - 1; i++) {
         var currLine = logDataArray[i].split(' ');
         var dateString = currLine[0].replace('_', 'T');
         var date = new Date(dateString);
         date.setTime(date.getTime() + (60*60*1000));
         var reading = currLine[2].substring(0, currLine[2].length - 1);
         var readingValue = currLine[3];
+        fetch("http://localhost:3000/temps/", {
+          method: 'POST',
+          headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+           body: JSON.stringify({
+          type: reading,
+          value: readingValue,
+          date: date
+        })
+      })
+      .then
       }
     }
 
