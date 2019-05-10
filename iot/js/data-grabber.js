@@ -32,7 +32,10 @@ function runDataGrabber() {
          this.dataError = true;
      });
 
+     
+
     function parseData() {
+        var jsonData = [];
       var logDataArray = logData.split('\n');
       for (var i = logDataArray.length - 100; i < logDataArray.length - 1; i++) {
         var currLine = logDataArray[i].split(' ');
@@ -41,7 +44,15 @@ function runDataGrabber() {
         date.setTime(date.getTime() + (60*60*1000));
         var reading = currLine[2].substring(0, currLine[2].length - 1);
         var readingValue = currLine[3];
-        fetch("http://localhost:3000/temps/", {
+
+        jsonData.push({ 
+            "type"  : reading,
+            "value" : readingValue,
+            "date"  : date
+        });
+
+
+        /*fetch("http://localhost:3000/temps/", {
           method: 'POST',
           headers: {
       'Accept': 'application/json',
@@ -52,11 +63,22 @@ function runDataGrabber() {
           value: readingValue,
           date: date
         })
+      })*/
+      //.then
+      }
+
+              fetch("http://localhost:3000/temps/", {
+          method: 'POST',
+          headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+           body: JSON.stringify(jsonData)
       })
       .then
-      }
     }
 
+    
     function replaceData() {
         document.getElementById("outside-temp").innerHTML = heatingData.Results[0].Readings["Temp-Aussen"].Value + " °C";
         document.getElementById("heating-flow").innerHTML = heatingData.Results[0].Readings["Temp-Vorlauf"].Value + " °C";
