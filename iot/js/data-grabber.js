@@ -91,8 +91,8 @@ function runDataGrabber() {
         document.getElementById("mode").innerHTML = heatingData.Results[0].Readings["Betriebs-Mode"].Value;
         document.getElementById("cpu-date").innerHTML = heatingData.Results[0].Readings["CPU-Boot-Datum"].Value;
         document.getElementById("cpu-time").innerHTML = heatingData.Results[0].Readings["CPU-Boot-Zeit"].Value;
-        document.getElementById("ht-inc-off").innerHTML = heatingData.Results[0].Readings["Hz-Anhebung-Aus"].Value;
-        document.getElementById("ht-inc-on").innerHTML = heatingData.Results[0].Readings["Hz-Anhebung-Ein"].Value;
+        document.getElementById("ht-inc-off").innerHTML = heatingData.Results[0].Readings["Hz-Anhebung-Aus"].Value + " - " + heatingData.Results[0].Readings["Hz-Anhebung-Ein"].Value;
+        document.getElementById("ht-inc-on").innerHTML = heatingData.Results[0].Readings["Hz-Anhebung-Ein"].Value + " - " + heatingData.Results[0].Readings["Hz-Anhebung-Aus"].Value;
         document.getElementById("ht-hyst").innerHTML = heatingData.Results[0].Readings["Hz-Hysterese"].Value;
         document.getElementById("compr-hours").innerHTML = heatingData.Results[0].Readings["KomprBetrStunden"].Value;
 
