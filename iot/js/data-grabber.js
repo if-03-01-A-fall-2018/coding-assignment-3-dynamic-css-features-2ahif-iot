@@ -96,7 +96,8 @@ function runDataGrabber() {
         document.getElementById("ht-hyst").innerHTML = heatingData.Results[0].Readings["Hz-Hysterese"].Value;
         document.getElementById("compr-hours").innerHTML = heatingData.Results[0].Readings["KomprBetrStunden"].Value;
 
-        document.getElementById("last-request").innerHTML = heatingData.Results[0].Readings["Zeit"].Value;
+        document.getElementById("time").innerHTML = heatingData.Results[0].Readings["Uhrzeit"].Value;
+        document.getElementById("date").innerHTML = heatingData.Results[0].Readings["Datum"].Value;
     }
 }
 

@@ -11399,6 +11399,8172 @@
       "value": "23.0",
       "date": "2019-05-02T18:47:51.000Z",
       "id": 1900
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 1901
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 1902
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 1903
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 1904
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 1905
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 1906
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 1907
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 1908
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 1909
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 1910
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 1911
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 1912
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 1913
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 1914
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 1915
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 1916
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 1917
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 1918
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 1919
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 1920
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 1921
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 1922
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 1923
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 1924
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 1925
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 1926
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 1927
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 1928
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 1929
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 1930
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.6",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 1931
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 1932
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 1933
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 1934
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 1935
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 1936
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 1937
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 1938
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 1939
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 1940
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 1941
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 1942
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 1943
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 1944
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 1945
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 1946
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 1947
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 1948
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 1949
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 1950
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 1951
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T12:32:54.000Z",
+      "id": 1952
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 1953
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.3",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 1954
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T12:35:54.000Z",
+      "id": 1955
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.5",
+      "date": "2019-05-08T12:37:54.000Z",
+      "id": 1956
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:36:54.000Z",
+      "id": 1957
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.4",
+      "date": "2019-05-08T12:35:54.000Z",
+      "id": 1958
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.1",
+      "date": "2019-05-08T13:18:54.000Z",
+      "id": 1959
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.8",
+      "date": "2019-05-08T13:26:54.000Z",
+      "id": 1960
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.8",
+      "date": "2019-05-08T13:27:54.000Z",
+      "id": 1961
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.7",
+      "date": "2019-05-08T13:28:54.000Z",
+      "id": 1962
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.9",
+      "date": "2019-05-08T13:27:54.000Z",
+      "id": 1963
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.0",
+      "date": "2019-05-08T13:21:54.000Z",
+      "id": 1964
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.9",
+      "date": "2019-05-08T13:24:54.000Z",
+      "id": 1965
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.8",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 1966
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.7",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 1967
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.6",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 1968
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.5",
+      "date": "2019-05-08T13:31:54.000Z",
+      "id": 1969
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 1970
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.7",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 1971
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.6",
+      "date": "2019-05-08T12:29:54.000Z",
+      "id": 1972
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T12:28:54.000Z",
+      "id": 1973
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 1974
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 1975
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 1976
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 1977
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 1978
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 1979
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 1980
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 1981
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 1982
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:36:54.000Z",
+      "id": 1983
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 1984
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.2",
+      "date": "2019-05-08T13:15:54.000Z",
+      "id": 1985
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 1986
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T12:25:54.000Z",
+      "id": 1987
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.6",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 1988
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.9",
+      "date": "2019-05-08T12:24:54.000Z",
+      "id": 1989
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 1990
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.0",
+      "date": "2019-05-08T12:20:54.000Z",
+      "id": 1991
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T12:21:54.000Z",
+      "id": 1992
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 1993
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.8",
+      "date": "2019-05-08T12:30:54.000Z",
+      "id": 1994
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.4",
+      "date": "2019-05-08T12:35:54.000Z",
+      "id": 1995
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T12:32:54.000Z",
+      "id": 1996
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.3",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 1997
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T12:35:54.000Z",
+      "id": 1998
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.5",
+      "date": "2019-05-08T12:37:54.000Z",
+      "id": 1999
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.6",
+      "date": "2019-05-08T12:40:54.000Z",
+      "id": 2000
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.5",
+      "date": "2019-05-08T12:40:54.000Z",
+      "id": 2001
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.7",
+      "date": "2019-05-08T12:43:54.000Z",
+      "id": 2002
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.8",
+      "date": "2019-05-08T12:45:54.000Z",
+      "id": 2003
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.9",
+      "date": "2019-05-08T12:47:54.000Z",
+      "id": 2004
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.4",
+      "date": "2019-05-08T12:53:54.000Z",
+      "id": 2005
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.7",
+      "date": "2019-05-08T12:55:54.000Z",
+      "id": 2006
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.8",
+      "date": "2019-05-08T12:57:54.000Z",
+      "id": 2007
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.6",
+      "date": "2019-05-08T13:02:54.000Z",
+      "id": 2008
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.3",
+      "date": "2019-05-08T13:04:54.000Z",
+      "id": 2009
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.9",
+      "date": "2019-05-08T13:05:54.000Z",
+      "id": 2010
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.5",
+      "date": "2019-05-08T13:06:54.000Z",
+      "id": 2011
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.4",
+      "date": "2019-05-08T13:09:54.000Z",
+      "id": 2012
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.0",
+      "date": "2019-05-08T13:10:54.000Z",
+      "id": 2013
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T13:11:54.000Z",
+      "id": 2014
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.2",
+      "date": "2019-05-08T13:11:54.000Z",
+      "id": 2015
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.3",
+      "date": "2019-05-08T13:12:54.000Z",
+      "id": 2016
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.0",
+      "date": "2019-05-08T13:12:54.000Z",
+      "id": 2017
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "20.0",
+      "date": "2019-05-08T13:14:54.000Z",
+      "id": 2018
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.1",
+      "date": "2019-05-08T13:18:54.000Z",
+      "id": 2019
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.1",
+      "date": "2019-05-08T13:18:54.000Z",
+      "id": 2020
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "22.0",
+      "date": "2019-05-08T13:21:54.000Z",
+      "id": 2021
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.9",
+      "date": "2019-05-08T13:24:54.000Z",
+      "id": 2022
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.9",
+      "date": "2019-05-08T13:27:54.000Z",
+      "id": 2023
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.9",
+      "date": "2019-05-08T13:25:54.000Z",
+      "id": 2024
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.8",
+      "date": "2019-05-08T13:26:54.000Z",
+      "id": 2025
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.8",
+      "date": "2019-05-08T13:27:54.000Z",
+      "id": 2026
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.7",
+      "date": "2019-05-08T13:28:54.000Z",
+      "id": 2027
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.7",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2028
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.6",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2029
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.8",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2030
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.5",
+      "date": "2019-05-08T13:31:54.000Z",
+      "id": 2031
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.3",
+      "date": "2019-05-08T13:32:54.000Z",
+      "id": 2032
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2033
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.7",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2034
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2035
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2036
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.6",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2037
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 2038
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2039
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 2040
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.1",
+      "date": "2019-05-08T12:34:54.000Z",
+      "id": 2041
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2042
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 2043
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.0",
+      "date": "2019-05-08T13:23:54.000Z",
+      "id": 2044
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2045
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2046
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2047
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2048
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2049
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2050
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2051
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2052
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2053
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2054
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2055
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2056
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2057
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2058
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2059
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2060
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2061
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2062
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2063
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2064
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2065
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2066
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2067
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2068
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2069
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2070
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2071
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2072
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2073
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2074
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2075
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.7",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2076
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2077
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2078
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.6",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2079
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2080
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.6",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2081
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 2082
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2083
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2084
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 2085
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2086
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2087
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2088
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2089
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2090
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2091
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2092
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2093
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2094
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2095
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2096
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2097
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2098
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2099
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2100
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2101
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2102
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2103
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2104
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2105
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2106
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2107
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2108
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2109
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2110
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2111
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2112
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.6",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2113
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2114
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.6",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2115
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 2116
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2117
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2118
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 2119
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2120
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2121
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2122
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2123
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2124
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2125
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2126
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2127
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2128
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2129
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2130
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2131
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2132
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2133
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2134
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2135
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2136
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2137
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2138
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2139
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2140
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2141
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2142
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.7",
+      "date": "2019-05-08T13:28:54.000Z",
+      "id": 2143
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.9",
+      "date": "2019-05-08T13:27:54.000Z",
+      "id": 2144
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.7",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2145
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.3",
+      "date": "2019-05-08T13:32:54.000Z",
+      "id": 2146
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.2",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2147
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.7",
+      "date": "2019-05-08T13:33:54.000Z",
+      "id": 2148
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.6",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2149
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.8",
+      "date": "2019-05-08T13:30:54.000Z",
+      "id": 2150
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.5",
+      "date": "2019-05-08T13:31:54.000Z",
+      "id": 2151
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.6",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2152
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.1",
+      "date": "2019-05-08T13:34:54.000Z",
+      "id": 2153
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "19.0",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2154
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.6",
+      "date": "2019-05-08T13:36:54.000Z",
+      "id": 2155
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.9",
+      "date": "2019-05-08T13:37:54.000Z",
+      "id": 2156
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "21.5",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2157
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.8",
+      "date": "2019-05-08T13:38:54.000Z",
+      "id": 2158
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 2159
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2160
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2161
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2162
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2163
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2164
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2165
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2166
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2167
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2168
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2169
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2170
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2171
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2172
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2173
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2174
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2175
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2176
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2177
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2178
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2179
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2180
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2181
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2182
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2183
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2184
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2185
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2186
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2187
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2188
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2189
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2190
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2191
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2192
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2193
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2194
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2195
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.6",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2196
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.7",
+      "date": "2019-05-08T12:18:54.000Z",
+      "id": 2197
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.7",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2198
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2199
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2200
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2201
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2202
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2203
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2204
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2205
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2206
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2207
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2208
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2209
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2210
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2211
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2212
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2213
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2214
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2215
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2216
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2217
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2218
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2219
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2220
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2221
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2222
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2223
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2224
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2225
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2226
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2227
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2228
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2229
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2230
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2231
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2232
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2233
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2234
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2235
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2236
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2237
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2238
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2239
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2240
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2241
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2242
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2243
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2244
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2245
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2246
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2247
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2248
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2249
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2250
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2251
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2252
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2253
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2254
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2255
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2256
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2257
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2258
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2259
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2260
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2261
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2262
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2263
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2264
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2265
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2266
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2267
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2268
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.6",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2269
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2270
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.7",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2271
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2272
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2273
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2274
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2275
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2276
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2277
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2278
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2279
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2280
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2281
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2282
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2283
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2284
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2285
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2286
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2287
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2288
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2289
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2290
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2291
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2292
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2293
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2294
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2295
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2296
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2297
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2298
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2299
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2300
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2301
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2302
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2303
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2304
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2305
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2306
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2307
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2308
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2309
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2310
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2311
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2312
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2313
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2314
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2315
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2316
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2317
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2318
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2319
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2320
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2321
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2322
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2323
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2324
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2325
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2326
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2327
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2328
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2329
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2330
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.0",
+      "date": "2019-05-08T13:10:54.000Z",
+      "id": 2331
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2332
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2333
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2334
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2335
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2336
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2337
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2338
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2339
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2340
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2341
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2342
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2343
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2344
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2345
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2346
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2347
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2348
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2349
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2350
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2351
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2352
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2353
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2354
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2355
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2356
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2357
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2358
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2359
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2360
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2361
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2362
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2363
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2364
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2365
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2366
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2367
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2368
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2369
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2370
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2371
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2372
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2373
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2374
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2375
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2376
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2377
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2378
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2379
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2380
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2381
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2382
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2383
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2384
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2385
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2386
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2387
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2388
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2389
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2390
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2391
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2392
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2393
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2394
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2395
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2396
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2397
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2398
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2399
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2400
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2401
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2402
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2403
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2404
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2405
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2406
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2407
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2408
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2409
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2410
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.7",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2411
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2412
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.6",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2413
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2414
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2415
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2416
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2417
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2418
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2419
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2420
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2421
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2422
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2423
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2424
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2425
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2426
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2427
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2428
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2429
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2430
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2431
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2432
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2433
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2434
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2435
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2436
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2437
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2438
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2439
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2440
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2441
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2442
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2443
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2444
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2445
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2446
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2447
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2448
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.6",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2449
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2450
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2451
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2452
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2453
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2454
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2455
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2456
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2457
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2458
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2459
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2460
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2461
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2462
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2463
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2464
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2465
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2466
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2467
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2468
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2469
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2470
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2471
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2472
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2473
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2474
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2475
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2476
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2477
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2478
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2479
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2480
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2481
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2482
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2483
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2484
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2485
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2486
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2487
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2488
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2489
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2490
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2491
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2492
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2493
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2494
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2495
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2496
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2497
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2498
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2499
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2500
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2501
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2502
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2503
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2504
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2505
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2506
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2507
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2508
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2509
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2510
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2511
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2512
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2513
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2514
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2515
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2516
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2517
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2518
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2519
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2520
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2521
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2522
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2523
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2524
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2525
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2526
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2527
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2528
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2529
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2530
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2531
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2532
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2533
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2534
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2535
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2536
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2537
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2538
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2539
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2540
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2541
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2542
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2543
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2544
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2545
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2546
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2547
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2548
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2549
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2550
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2551
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2552
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2553
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2554
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2555
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2556
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2557
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2558
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2559
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2560
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2561
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2562
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2563
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2564
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2565
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2566
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2567
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2568
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2569
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2570
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2571
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2572
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2573
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2574
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2575
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2576
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2577
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2578
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2579
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2580
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2581
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2582
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2583
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2584
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2585
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2586
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2587
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2588
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2589
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2590
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2591
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2592
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2593
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2594
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2595
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2596
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2597
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2598
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2599
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2600
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2601
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2602
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2603
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2604
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2605
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2606
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2607
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2608
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2609
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2610
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2611
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2612
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2613
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2614
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2615
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2616
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2617
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2618
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2619
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2620
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2621
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2622
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2623
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2624
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2625
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2626
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2627
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2628
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2629
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2630
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2631
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2632
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2633
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2634
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2635
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2636
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2637
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2638
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2639
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2640
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2641
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2642
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2643
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2644
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2645
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2646
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2647
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2648
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2649
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2650
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2651
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2652
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2653
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2654
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2655
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2656
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2657
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2658
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2659
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2660
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2661
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2662
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2663
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2664
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2665
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2666
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2667
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2668
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2669
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2670
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2671
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2672
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2673
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2674
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2675
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2676
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2677
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2678
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2679
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2680
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2681
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2682
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2683
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2684
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2685
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2686
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2687
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2688
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2689
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2690
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2691
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2692
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2693
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2694
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2695
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2696
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2697
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2698
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2699
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2700
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2701
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2702
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2703
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2704
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2705
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2706
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2707
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2708
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2709
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2710
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2711
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2712
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2713
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2714
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2715
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2716
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2717
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2718
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2719
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2720
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2721
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2722
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2723
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2724
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2725
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2726
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2727
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2728
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2729
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2730
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2731
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2732
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2733
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "23.5",
+      "date": "2019-05-08T13:39:54.000Z",
+      "id": 2734
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2735
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2736
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2737
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2738
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2739
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2740
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2741
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2742
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2743
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2744
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2745
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2746
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2747
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2748
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2749
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2750
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2751
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2752
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2753
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2754
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2755
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2756
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2757
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2758
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2759
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2760
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2761
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2762
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2763
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2764
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2765
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2766
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2767
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2768
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2769
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2770
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2771
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2772
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2773
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2774
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2775
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2776
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2777
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2778
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2779
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2780
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2781
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2782
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2783
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2784
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2785
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2786
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2787
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2788
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2789
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2790
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2791
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2792
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2793
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2794
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 2795
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.4",
+      "date": "2019-05-08T12:13:54.000Z",
+      "id": 2796
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.5",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 2797
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.6",
+      "date": "2019-05-08T12:16:54.000Z",
+      "id": 2798
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2799
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2800
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2801
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2802
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2803
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2804
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2805
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2806
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2807
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2808
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2809
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2810
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2811
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2812
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2813
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2814
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2815
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2816
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2817
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2818
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2819
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2820
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2821
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2822
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2823
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2824
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2825
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2826
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2827
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2828
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2829
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2830
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2831
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2832
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2833
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2834
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2835
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2836
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2837
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2838
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2839
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2840
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2841
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2842
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2843
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2844
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2845
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2846
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2847
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2848
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2849
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2850
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2851
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2852
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2853
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2854
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2855
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2856
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2857
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2858
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2859
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2860
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2861
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2862
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2863
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2864
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2865
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2866
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2867
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2868
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2869
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2870
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2871
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2872
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2873
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2874
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2875
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2876
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2877
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2878
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2879
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2880
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2881
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2882
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2883
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2884
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2885
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2886
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2887
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2888
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2889
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2890
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2891
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2892
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2893
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2894
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2895
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2896
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2897
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2898
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2899
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2900
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2901
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2902
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2903
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2904
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2905
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2906
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2907
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2908
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2909
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 2910
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2911
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2912
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 2913
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 2914
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2915
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2916
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2917
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2918
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2919
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2920
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2921
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2922
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2923
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2924
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2925
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2926
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2927
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2928
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2929
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2930
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2931
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2932
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2933
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2934
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2935
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2936
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2937
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2938
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2939
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2940
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 2941
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2942
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2943
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2944
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2945
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2946
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2947
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2948
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2949
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2950
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2951
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2952
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2953
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2954
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2955
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2956
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2957
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2958
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2959
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2960
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2961
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2962
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2963
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2964
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2965
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2966
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2967
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2968
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 2969
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2970
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2971
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 2972
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 2973
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2974
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2975
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2976
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 2977
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 2978
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 2979
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2980
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2981
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 2982
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 2983
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 2984
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2985
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 2986
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2987
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 2988
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 2989
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 2990
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 2991
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 2992
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 2993
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 2994
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 2995
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 2996
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2997
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 2998
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 2999
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3000
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3001
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3002
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3003
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3004
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3005
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3006
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3007
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3008
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3009
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3010
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3011
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3012
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3013
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3014
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3015
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3016
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3017
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3018
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3019
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3020
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3021
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3022
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3023
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3024
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3025
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3026
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3027
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3028
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3029
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3030
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3031
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3032
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3033
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3034
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3035
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3036
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3037
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3038
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3039
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3040
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3041
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3042
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3043
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3044
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3045
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3046
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3047
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3048
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3049
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3050
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3051
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3052
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3053
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3054
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3055
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3056
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3057
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3058
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3059
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3060
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3061
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3062
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3063
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3064
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3065
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3066
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3067
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3068
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3069
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3070
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3071
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3072
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3073
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3074
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3075
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3076
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3077
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3078
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3079
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3080
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3081
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3082
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3083
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3084
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3085
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3086
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3087
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3088
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3089
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3090
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3091
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3092
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3093
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3094
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3095
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3096
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3097
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3098
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 3099
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 3100
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 3101
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3102
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3103
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3104
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3105
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3106
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3107
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3108
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3109
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3110
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3111
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3112
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3113
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3114
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3115
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3116
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3117
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3118
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3119
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3120
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3121
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3122
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3123
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3124
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3125
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3126
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3127
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 3128
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3129
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 3130
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 3131
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 3132
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 3133
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3134
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3135
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3136
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3137
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3138
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3139
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3140
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3141
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3142
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3143
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3144
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3145
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3146
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3147
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3148
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3149
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3150
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3151
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3152
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3153
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3154
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3155
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3156
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3157
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3158
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3159
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 3160
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 3161
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3162
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3163
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3164
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3165
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3166
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3167
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3168
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3169
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3170
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3171
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3172
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3173
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3174
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3175
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3176
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3177
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3178
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3179
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3180
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3181
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3182
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3183
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3184
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3185
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3186
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3187
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 3188
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3189
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.0",
+      "date": "2019-05-08T12:08:54.000Z",
+      "id": 3190
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.1",
+      "date": "2019-05-08T12:10:54.000Z",
+      "id": 3191
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 3192
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "18.3",
+      "date": "2019-05-08T12:12:54.000Z",
+      "id": 3193
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.2",
+      "date": "2019-05-08T12:11:54.000Z",
+      "id": 3194
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.1",
+      "date": "2019-05-08T12:15:54.000Z",
+      "id": 3195
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3196
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3197
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3198
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3199
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3200
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3201
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3202
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3203
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3204
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3205
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3206
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3207
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3208
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3209
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3210
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3211
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3212
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3213
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3214
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3215
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3216
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3217
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3218
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3219
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3220
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3221
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3222
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3223
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3224
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3225
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3226
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3227
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3228
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3229
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3230
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3231
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3232
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3233
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.3",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3234
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.0",
+      "date": "2019-05-08T11:54:54.000Z",
+      "id": 3235
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3236
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.1",
+      "date": "2019-05-08T11:55:54.000Z",
+      "id": 3237
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.2",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3238
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.4",
+      "date": "2019-05-08T12:00:54.000Z",
+      "id": 3239
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.5",
+      "date": "2019-05-08T11:57:54.000Z",
+      "id": 3240
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.3",
+      "date": "2019-05-08T11:59:54.000Z",
+      "id": 3241
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.4",
+      "date": "2019-05-08T12:02:54.000Z",
+      "id": 3242
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.6",
+      "date": "2019-05-08T12:03:54.000Z",
+      "id": 3243
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.5",
+      "date": "2019-05-08T12:01:54.000Z",
+      "id": 3244
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.7",
+      "date": "2019-05-08T12:04:54.000Z",
+      "id": 3245
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.8",
+      "date": "2019-05-08T12:05:54.000Z",
+      "id": 3246
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.3",
+      "date": "2019-05-08T12:06:54.000Z",
+      "id": 3247
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "17.9",
+      "date": "2019-05-08T12:07:54.000Z",
+      "id": 3248
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "24.0",
+      "date": "2019-05-08T11:42:54.000Z",
+      "id": 3249
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.9",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3250
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.5",
+      "date": "2019-05-08T11:46:54.000Z",
+      "id": 3251
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.4",
+      "date": "2019-05-08T11:44:54.000Z",
+      "id": 3252
+    },
+    {
+      "type": "Temp-Vorlauf",
+      "value": "24.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3253
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.6",
+      "date": "2019-05-08T11:48:54.000Z",
+      "id": 3254
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.8",
+      "date": "2019-05-08T11:47:54.000Z",
+      "id": 3255
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.7",
+      "date": "2019-05-08T11:49:54.000Z",
+      "id": 3256
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.7",
+      "date": "2019-05-08T11:50:54.000Z",
+      "id": 3257
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.8",
+      "date": "2019-05-08T11:51:54.000Z",
+      "id": 3258
+    },
+    {
+      "type": "Ww-Temp",
+      "value": "49.2",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3259
+    },
+    {
+      "type": "Temp-Aussen",
+      "value": "16.9",
+      "date": "2019-05-08T11:52:54.000Z",
+      "id": 3260
+    },
+    {
+      "type": "Temp-Ruecklauf",
+      "value": "23.6",
+      "date": "2019-05-08T11:53:54.000Z",
+      "id": 3261
     }
   ]
 }

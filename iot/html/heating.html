@@ -116,15 +116,15 @@
                   <td id="ht-hyst">Loading...</td>
                </tr>
                <tr>
-                  <td>Compr. working hours</td>
+                  <td>Compressor working hours</td>
                   <td id="compr-hours">Loading...</td>
                </tr>
             </tbody>
          </table>
          <p style="margin-top: 1em">
-            <b>Data requested at: </b> <span id="last-request">(no request sent yet)</span>
+            <b>Data requested on:</b> <span id="date">(no request sent yet)</span> <b>at:</b> <span id="time">(no request sent yet)</span>
             <br>
-            The displayed data refreshes every minute.
+            The displayed data is called up every minute.
             Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
          </p>
          <p>Choose the time span for the diagram:</p>
@@ -135,6 +135,7 @@
          <canvas id="tempChart"></canvas>
       </article>
       <script src="../js/sliderchart.js"></script>
+      <script src="../js/data-grabber.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
    </body>
 </html>
