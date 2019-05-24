@@ -17,21 +17,21 @@ function runDataGrabber() {
          this.dataError = true;
      });
 
-     fetch('https://www.wallinger-online.at/heating/log.php')
-     .then(response => {
-         if (!response.ok) {
-             throw new Error("HTTP error " + response.status);
-         }
-         return response.text();
-     })
-     .then(text => {
-         logData = text;
-         parseData();
-     })
-     .catch(function () {
-         this.dataError = true;
-     });
-
+    //  fetch('https://www.wallinger-online.at/heating/log.php')
+    //  .then(response => {
+    //      if (!response.ok) {
+    //          throw new Error("HTTP error " + response.status);
+    //      }
+    //      return response.text();
+    //  })
+    //  .then(text => {
+    //      logData = text;
+    //      parseData();
+    //  })
+    //  .catch(function () {
+    //      this.dataError = true;
+    //  });
+    }
      
 
     function parseData() {
@@ -66,18 +66,6 @@ function runDataGrabber() {
       })*/
       //.then
       }
-
-              fetch("http://localhost:3000/temps/", {
-          method: 'POST',
-          headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-           body: JSON.stringify(jsonData)
-      })
-      .then
-    }
-
     
     function replaceData() {
         document.getElementById("outside-temp").innerHTML = heatingData.Results[0].Readings["Temp-Aussen"].Value + " °C";

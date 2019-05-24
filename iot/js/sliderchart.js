@@ -2,48 +2,27 @@ function timestamp(str) {
     return new Date(str).getTime();
 }
 
-var weekdays = [
-    "Sunday", "Monday", "Tuesday",
-    "Wednesday", "Thursday", "Friday",
-    "Saturday"
-];
-
-var months = [
-    "January", "February", "March",
-    "April", "May", "June", "July",
-    "August", "September", "October",
-    "November", "December"
-];
-
-function nth(d) {
-    switch (d % 10) {
-        case 1:
-            return "st";
-        case 2:
-            return "nd";
-        case 3:
-            return "rd";
-        default:
-            return "th";
-    }
-}
-
 function formatDate(date) {
-    return weekdays[date.getDay()] + ", " +
-        date.getDate() + nth(date.getDate()) + " " +
-        months[date.getMonth()] + " " +
-        date.getFullYear();
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+
+    return [year, month, day].join('-');
 }
 
 var dateSlider = document.getElementById('slider-date');
 
 noUiSlider.create(dateSlider, {
     range: {
-        min: timestamp('2019-01-01'),
-        max: timestamp('2019-03-28')
+        min: timestamp('2019-05-06'),
+        max: timestamp('2019-06-01')
     },
     step: 24 * 60 * 60 * 1000,
-    start: [timestamp('2019-01-20'), timestamp('2019-03-08')],
+    start: [timestamp('2019-05-06'), timestamp('2019-05-08')],
     format: wNumb({
         decimals: 0
     })
@@ -55,6 +34,20 @@ var dateValues = [
 ];
 
 function printChart() {
+       fetch('http://heating.wllgrsrv.cf/?from=' + dateValues[0].innerHTML + '&to=' + dateValues[1].innerHTML)
+     .then(response => {
+         if (!response.ok) {
+             throw new Error("HTTP error " + response.status);
+         }
+         return response.text();
+     })
+     .then(text => {
+         console.log(text)
+     })
+     .catch(function () {
+         this.dataError = true;
+     });
+
   var data = {
     labels: [],
     datasets: [
@@ -71,18 +64,6 @@ function printChart() {
       {}
     ]
   };
-
-  fetch('http://127.0,0,1:3000/temps')
-.then(response => {
-  return response.json()
-})
-.then(data => {
-  // Work with JSON data here
-  console.log(data)
-})
-.catch(err => {
-
-})
 
     var outsideData = [];
     var heatingFlowData = [];
