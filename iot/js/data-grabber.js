@@ -1,6 +1,7 @@
+var heatingData;
+var logData;
+
 function runDataGrabber() {
-  var heatingData;
-  var logData;
 
      fetch('https://www.wallinger-online.at/heating/')
      .then(response => {
@@ -16,24 +17,8 @@ function runDataGrabber() {
      .catch(function () {
          this.dataError = true;
      });
-
-    //  fetch('https://www.wallinger-online.at/heating/log.php')
-    //  .then(response => {
-    //      if (!response.ok) {
-    //          throw new Error("HTTP error " + response.status);
-    //      }
-    //      return response.text();
-    //  })
-    //  .then(text => {
-    //      logData = text;
-    //      parseData();
-    //  })
-    //  .catch(function () {
-    //      this.dataError = true;
-    //  });
     }
      
-
     function parseData() {
         var jsonData = [];
       var logDataArray = logData.split('\n');
@@ -51,21 +36,9 @@ function runDataGrabber() {
             "date"  : date
         });
 
-
-        /*fetch("http://localhost:3000/temps/", {
-          method: 'POST',
-          headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-           body: JSON.stringify({
-          type: reading,
-          value: readingValue,
-          date: date
-        })
-      })*/
-      //.then
+        replaceData();
       }
+    }
     
     function replaceData() {
         document.getElementById("outside-temp").innerHTML = heatingData.Results[0].Readings["Temp-Aussen"].Value + " °C";
@@ -87,7 +60,6 @@ function runDataGrabber() {
         document.getElementById("time").innerHTML = heatingData.Results[0].Readings["Uhrzeit"].Value;
         document.getElementById("date").innerHTML = heatingData.Results[0].Readings["Datum"].Value;
     }
-}
 
 runDataGrabber();
 var timer = setInterval(runDataGrabber, 60 * 1000);
