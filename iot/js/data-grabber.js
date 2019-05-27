@@ -1,6 +1,7 @@
 var heatingData;
 var time = "day";
 var offset = "0";
+var requesting = false;
 
 function runDataGrabber() {
 
@@ -23,21 +24,24 @@ function runDataGrabber() {
     }
 
     function fetchPlot() {
-        document.getElementById("plots").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>' + document.getElementById("plots").innerHTML;
-        fetch('http://heating.wllgrsrv.cf/plots/?offset=' + offset + '&zoom=' + time)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("HTTP error " + response.status);
-                }
-                return response.text();
-            })
-            .then(data => {
-                console.log(data);
-                document.getElementById("plots").innerHTML = data;
-            })
-            .catch(function () {
-                let dataError = true;
-            });
+        if(!requesting) {
+            document.getElementById("plots").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>' + document.getElementById("plots").innerHTML;
+            fetch('http://heating.wllgrsrv.cf/plots/?offset=' + offset + '&zoom=' + time)
+                .then(response => {
+                    requesting = true;
+                    if (!response.ok) {
+                        throw new Error("HTTP error " + response.status);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    requesting = false;
+                    document.getElementById("plots").innerHTML = data;
+                })
+                .catch(function () {
+                    let dataError = true;
+                });
+        }
     }
     
     function replaceData() {
