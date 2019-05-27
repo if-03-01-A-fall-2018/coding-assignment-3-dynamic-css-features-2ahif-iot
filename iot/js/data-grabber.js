@@ -1,5 +1,6 @@
 var heatingData;
-var logData;
+var time = "day";
+var offset = "0";
 
 function runDataGrabber() {
 
@@ -17,27 +18,26 @@ function runDataGrabber() {
      .catch(function () {
          this.dataError = true;
      });
+
+     fetchPlot();
     }
-     
-    function parseData() {
-        var jsonData = [];
-      var logDataArray = logData.split('\n');
-      for (var i = logDataArray.length - 100; i < logDataArray.length - 1; i++) {
-        var currLine = logDataArray[i].split(' ');
-        var dateString = currLine[0].replace('_', 'T');
-        var date = new Date(dateString);
-        date.setTime(date.getTime() + (60*60*1000));
-        var reading = currLine[2].substring(0, currLine[2].length - 1);
-        var readingValue = currLine[3];
 
-        jsonData.push({ 
-            "type"  : reading,
-            "value" : readingValue,
-            "date"  : date
-        });
-
-        replaceData();
-      }
+    function fetchPlot() {
+        document.getElementById("plots").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>' + document.getElementById("plots").innerHTML;
+        fetch('http://heating.wllgrsrv.cf/plots/?offset=' + offset + '&zoom=' + time)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.text();
+            })
+            .then(data => {
+                console.log(data);
+                document.getElementById("plots").innerHTML = data;
+            })
+            .catch(function () {
+                let dataError = true;
+            });
     }
     
     function replaceData() {
@@ -59,6 +59,16 @@ function runDataGrabber() {
 
         document.getElementById("time").innerHTML = heatingData.Results[0].Readings["Uhrzeit"].Value;
         document.getElementById("date").innerHTML = heatingData.Results[0].Readings["Datum"].Value;
+    }
+
+    function handleClick(myRadio) {
+        time = myRadio.value;
+        fetchPlot();
+    }
+
+    function handleOffset(myTxt) {
+        offset = myTxt.value;
+        fetchPlot();
     }
 
 runDataGrabber();

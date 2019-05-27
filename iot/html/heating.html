@@ -7,8 +7,8 @@
       <link rel="stylesheet" href="../css/nouislider.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
-      <script src="../js/nouislider.min.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script> -->
+      <!-- <script src="../js/nouislider.min.js"></script> -->
       <script src="../js/data-grabber.js"></script>
       <script src="../js/wNumb.js"></script>
 
@@ -129,233 +129,18 @@
             The displayed data is called up every minute.
             Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
          </p>
-         <p>Choose the time span for the diagram:</p>
+
+          <p><b>Select time: </b><input type="radio" name="time" checked onclick="handleClick(this);" value="day"> Day <input type="radio" name="time" checked onclick="handleClick(this);" value="qday"> Day partly <input type="radio" name="time" onclick="handleClick(this);" value="hour"> Hour<br>
+          <b>Offset: </b><input type="number" onchange="handleOffset(this)" value="0">
+          </p>
+          <!-- <p>Choose the time span for the diagram:</p>
          <div id="slider-date"></div>
          <p><strong>Start: </strong><span class="example-val" id="event-start"></span><br />
             <strong>End: </strong><span class="example-val" id="event-end"></span>
          </p>
-         <canvas id="tempChart"></canvas>
-         <div id="testChart">
-            <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id='SVGPLOT_Plot.Ww.Temp'  data-origin='FHEM' width="800px" height="160px">
-<style type="text/css"><![CDATA[
-.background { fill:#FFFFE7; }
-
-text       { font-family:Times; font-size:12px; }
-text.title { font-size:16px; }
-text.legend { cursor:pointer; }
-circle#svgmarker { color:#278727; opacity:0.5; }
-
-path.SVGplot     { stroke:black; fill:none; }
-rect.SVGplot     { stroke:black; fill:none; }
-polyline.SVGplot { stroke:black; fill:none; }
-.border  { stroke:black; fill:url(#gr_bg); }
-.vgrid   { stroke:gray;  stroke-dasharray:2,6; }
-.hgrid   { stroke:gray;  stroke-dasharray:2,6; }
-.pasted  { stroke:black; stroke-dasharray:1,1; }
-
-.SVGplot.l0     { stroke:red;     }
-.SVGplot.l1     { stroke:green;   }
-.SVGplot.l2     { stroke:blue;    }
-.SVGplot.l3     { stroke:magenta; }
-.SVGplot.l4     { stroke:brown;   }
-.SVGplot.l5     { stroke:black;   }
-.SVGplot.l6     { stroke:olive;   }
-.SVGplot.l7     { stroke:gray;    }
-.SVGplot.l8     { stroke:yellow;  }
-.SVGplot.l0fill { stroke:#f00; fill:url(#gr_0); }
-.SVGplot.l1fill { stroke:#291; fill:url(#gr_1); }
-.SVGplot.l2fill { stroke:#00f; fill:url(#gr_2); }
-.SVGplot.l3fill { stroke:#f0f; fill:url(#gr_3); }
-.SVGplot.l4fill { stroke:#ff0; fill:url(#gr_4); }
-.SVGplot.l5fill { stroke:#0ff; fill:url(#gr_5); }
-.SVGplot.l6fill { stroke:#000; fill:url(#gr_6); }
-.SVGplot.l0dot  { stroke:red;   stroke-dasharray:2,4; }
-.SVGplot.l1dot  { stroke:green; stroke-dasharray:2,4; }
-.SVGplot.l0fill_stripe { stroke:red; fill:url(#gr0_stripe);}
-.SVGplot.l1fill_stripe { stroke:green; fill:url(#gr1_stripe);}
-.SVGplot.l0fill_gyr    { stroke:red; fill:url(#gr0_gyr);}
-
-text.SVGplot.l0     { stroke:none; fill:red;     } 
-text.SVGplot.l1     { stroke:none; fill:green;   } 
-text.SVGplot.l2     { stroke:none; fill:blue;    }
-text.SVGplot.l3     { stroke:none; fill:magenta; }
-text.SVGplot.l4     { stroke:none; fill:brown;   }
-text.SVGplot.l5     { stroke:none; fill:black;   }
-text.SVGplot.l6     { stroke:none; fill:olive;   }
-text.SVGplot.l7     { stroke:none; fill:gray;    }
-text.SVGplot.l8     { stroke:none; fill:yellow;  }
-text.SVGplot.l0fill { stroke:none; fill:#f00;    }
-text.SVGplot.l1fill { stroke:none; fill:#291;    }
-text.SVGplot.l2fill { stroke:none; fill:#00f;    }
-text.SVGplot.l3fill { stroke:none; fill:#f0f;    }
-text.SVGplot.l4fill { stroke:none; fill:#ff0;    }
-text.SVGplot.l5fill { stroke:none; fill:#0ff;    }
-text.SVGplot.l6fill { stroke:none; fill:#000;    }
-text.SVGplot.l0dot  { stroke:none; fill:red;     } 
-text.SVGplot.l1dot  { stroke:none; fill:green;   } 
-text.SVGplot.l0fill_stripe {stroke:none; fill:red;  }
-text.SVGplot.l1fill_stripe {stroke:none; fill:green;}
-text.SVGplot.l0fill_gyr    {stroke:none; fill:red;  }
-
-]]></style>
-<!-- will be included in each svg plot -->
-<defs>
-  <linearGradient id="gr_bg" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#FFFFF7; stop-opacity:1"/>
-    <stop offset="100%" style="stop-color:#FFFFC7; stop-opacity:1"/>
-  </linearGradient>
-
-  <linearGradient id="gr_0" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#f00; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#f88; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_1" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#291; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#8f7; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_2" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#00f; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#88f; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_3" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#f0f; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#f8f; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_4" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#ff0; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#ff8; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_5" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#0ff; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#8ff; stop-opacity:.4"/>
-  </linearGradient>
-
-  <linearGradient id="gr_6" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%"   style="stop-color:#000; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#ccc; stop-opacity:.4"/>
-  </linearGradient>
-
-  <pattern id="gr0_stripe" width="4" height="4"
-           patternUnits="userSpaceOnUse" patternTransform="rotate(-45 2 2)">
-      <path d="M -1,2 l 6,0" stroke="#f00" stroke-width="0.5"/>
-  </pattern>
-
-  <pattern id="gr1_stripe" width="4" height="4"
-           patternUnits="userSpaceOnUse" patternTransform="rotate(45 2 2)">
-      <path d="M -1,2 l 6,0" stroke="green" stroke-width="0.5"/>
-  </pattern>
-
-  <linearGradient id="gr0_gyr" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset=  "0%" style="stop-color:#f00; stop-opacity:.6"/>
-    <stop offset= "50%" style="stop-color:#ff0; stop-opacity:.6"/>
-    <stop offset="100%" style="stop-color:#0f0; stop-opacity:.6"/>
-  </linearGradient>
-
-
-</defs>
-
-<defs><mask id='mask_Plot.Ww.Temp' maskUnits='userSpaceOnUse' x='0' y='0' width ='800' height ='160'><rect x='46' y='18' width='706' height='122' style='stroke:none; fill:#ffffff'/></mask></defs>
-<rect x='48' y='19.2' width ='704' height ='121.6' rx='8' ry='8' fill='none' class='border'/>
-<text id='svg_title' x='400' y='14.4' class='title' text-anchor='middle'>Warmwasser-Temperatur</text>
-<text x="12" y="80" text-anchor="middle" class="ylabel" transform="rotate(270,12,80)"></text>
-<text x="796" y="80" text-anchor="middle" class="y2label" transform="rotate(270,796,80)">Temperatur in °C</text>
-<polyline class='SVGplot' points='77,19.2 77,23.2'/>
-<polyline class='SVGplot' points='77,136.8 77,140.8'/>
-<polyline class='SVGplot' points='106,19.2 106,23.2'/>
-<polyline class='SVGplot' points='106,136.8 106,140.8'/>
-<polyline class='SVGplot' points='136,19.2 136,23.2'/>
-<polyline class='SVGplot' points='136,136.8 136,140.8'/>
-<polyline class='SVGplot' points='165,19.2 165,23.2'/>
-<polyline class='SVGplot' points='165,136.8 165,140.8'/>
-<polyline class='SVGplot' points='194,19.2 194,23.2'/>
-<polyline class='SVGplot' points='194,136.8 194,140.8'/>
-<polyline class='SVGplot' points='224,19.2 224,23.2'/>
-<polyline class='SVGplot' points='224,136.8 224,140.8'/>
-<polyline class='SVGplot' points='253,19.2 253,23.2'/>
-<polyline class='SVGplot' points='253,136.8 253,140.8'/>
-<polyline class='SVGplot' points='282,19.2 282,23.2'/>
-<polyline class='SVGplot' points='282,136.8 282,140.8'/>
-<polyline class='SVGplot' points='312,19.2 312,23.2'/>
-<polyline class='SVGplot' points='312,136.8 312,140.8'/>
-<polyline class='SVGplot' points='341,19.2 341,23.2'/>
-<polyline class='SVGplot' points='341,136.8 341,140.8'/>
-<polyline class='SVGplot' points='370,19.2 370,23.2'/>
-<polyline class='SVGplot' points='370,136.8 370,140.8'/>
-<polyline class='SVGplot' points='400,19.2 400,23.2'/>
-<polyline class='SVGplot' points='400,136.8 400,140.8'/>
-<polyline class='SVGplot' points='429,19.2 429,23.2'/>
-<polyline class='SVGplot' points='429,136.8 429,140.8'/>
-<polyline class='SVGplot' points='458,19.2 458,23.2'/>
-<polyline class='SVGplot' points='458,136.8 458,140.8'/>
-<polyline class='SVGplot' points='488,19.2 488,23.2'/>
-<polyline class='SVGplot' points='488,136.8 488,140.8'/>
-<polyline class='SVGplot' points='517,19.2 517,23.2'/>
-<polyline class='SVGplot' points='517,136.8 517,140.8'/>
-<polyline class='SVGplot' points='546,19.2 546,23.2'/>
-<polyline class='SVGplot' points='546,136.8 546,140.8'/>
-<polyline class='SVGplot' points='576,19.2 576,23.2'/>
-<polyline class='SVGplot' points='576,136.8 576,140.8'/>
-<polyline class='SVGplot' points='605,19.2 605,23.2'/>
-<polyline class='SVGplot' points='605,136.8 605,140.8'/>
-<polyline class='SVGplot' points='634,19.2 634,23.2'/>
-<polyline class='SVGplot' points='634,136.8 634,140.8'/>
-<polyline class='SVGplot' points='664,19.2 664,23.2'/>
-<polyline class='SVGplot' points='664,136.8 664,140.8'/>
-<polyline class='SVGplot' points='693,19.2 693,23.2'/>
-<polyline class='SVGplot' points='693,136.8 693,140.8'/>
-<polyline class='SVGplot' points='722,19.2 722,23.2'/>
-<polyline class='SVGplot' points='722,136.8 722,140.8'/>
-<text x="0" y="156.8" class="ylabel">27.May</text>
-<text x="165" y="156.8" class="ylabel" text-anchor="middle">04:00</text>
-  <polyline points="165,19.2 165,140.8" class="hgrid"/>
-<text x="282" y="156.8" class="ylabel" text-anchor="middle">08:00</text>
-  <polyline points="282,19.2 282,140.8" class="hgrid"/>
-<text x="400" y="156.8" class="ylabel" text-anchor="middle">12:00</text>
-  <polyline points="400,19.2 400,140.8" class="hgrid"/>
-<text x="517" y="156.8" class="ylabel" text-anchor="middle">16:00</text>
-  <polyline points="517,19.2 517,140.8" class="hgrid"/>
-<text x="634" y="156.8" class="ylabel" text-anchor="middle">20:00</text>
-  <polyline points="634,19.2 634,140.8" class="hgrid"/>
-<g>
-  <polyline points="44,140 49,140" />
-<text x="39.2" y="144" class="ylabel" text-anchor="end">40</text>
-  <polyline points="44,116 49,116" />
-<text x="39.2" y="120" class="ylabel" text-anchor="end">42</text>
-  <polyline points="44,92 49,92" />
-<text x="39.2" y="96" class="ylabel" text-anchor="end">44</text>
-  <polyline points="44,67 49,67" />
-<text x="39.2" y="71" class="ylabel" text-anchor="end">46</text>
-  <polyline points="44,43 49,43" />
-<text x="39.2" y="47" class="ylabel" text-anchor="end">48</text>
-  <polyline points="44,19 49,19" />
-<text x="39.2" y="23" class="ylabel" text-anchor="end">50</text>
-</g>
-<g>
-  <polyline points="751,140 756,140" />
-<text x="760.8" y="144" class="ylabel">40</text>
-  <polyline points="751,116 756,116" />
-<text x="760.8" y="120" class="ylabel">42</text>
-  <polyline points="751,92 756,92" />
-<text x="760.8" y="96" class="ylabel">44</text>
-  <polyline points="751,67 756,67" />
-<text x="760.8" y="71" class="ylabel">46</text>
-  <polyline points="751,43 756,43" />
-<text x="760.8" y="47" class="ylabel">48</text>
-  <polyline points="751,19 756,19" />
-<text x="760.8" y="23" class="ylabel">50</text>
-</g>
-<path id="line_0" decimals="1" style='mask:url(#mask_Plot.Ww.Temp); stroke-width:1' x_min="48" x_off="1558908000" t_mul="0.00814824245650991" y_h="140.8" y_min="40" y_mul="12.16" title="Ww-Temp in °C" onclick="parent.svg_click(evt)" class="SVGplot l0" d="M 52,76 L 63,77 75,78 86,79 86,78 86,78 86,78 87,79 99,81 113,82 128,83 143,84 159,86 174,87 174,86 174,86 174,86 175,87 191,88 191,87 191,87 191,87 192,88 203,89 205,90 205,89 205,89 205,89 206,90 206,89 206,89 206,89 207,90 208,92 209,97 209,101 209,101 209,101 210,104 210,109 210,109 210,109 211,111 211,112 211,112 211,112 212,114 213,115 213,116 213,116 213,116 214,117 214,116 214,116 214,116 215,112 215,109 215,109 215,109 216,105 216,100 216,100 216,100 217,97 217,88 217,92 217,88 218,84 218,81 218,81 218,81 219,76 219,72 219,72 219,72 220,67 220,64 220,64 220,64 221,60 221,55 221,55 221,55 222,53 222,49 222,49 222,49 223,45 223,42 223,42 223,42 224,38 224,35 224,35 224,35 225,32 225,28 225,28 225,28 226,26 226,25 226,25 226,25 227,24 236,25 255,26 277,27 295,28 316,30 333,31 334,30 335,31 354,32 355,31 355,32 355,32 355,32 373,33 374,32 374,33 374,33 374,33 394,35 411,36 431,37 431,36 431,36 431,36 432,37 449,38 469,39 469,38 469,38 469,38 470,39 485,41 486,39 486,41 486,41 486,41 487,39 487,41 487,41 487,41 505,42 506,41 507,42 524,43 525,42 525,43 525,43 525,43 544,44 544,43 544,43 544,43 545,44 561,45 562,44 562,45 562,45 562,45 580,47 587,48 605,49 612,50 612,49 612,49 612,49 613,50 614,49 614,50"/>
-<text line_id="line_0" x="744" y="34.5076923076923" text-anchor="end" class="legend SVGplot l0">Ww-Temp in °C<title>Ww-Temp in °C: Min:41.9 Max:49.6 Last:47.4</title></text>
-<script type='text/javascript'>if(typeof svg_init == 'function') svg_init('SVGPLOT_Plot.Ww.Temp')</script>
-</svg>
-
+         <canvas id="tempChart"></canvas> -->
+         <div id="plots">
+             <span class="badge badge-success">Die Daten werden geladen...</span>
          </div>
       </article>
       <script src="../js/sliderchart.js"></script>
