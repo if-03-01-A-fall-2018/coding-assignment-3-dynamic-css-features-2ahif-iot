@@ -1,3 +1,5 @@
+var timespans = [];
+
 function timestamp(str) {
     return new Date(str).getTime();
 }
@@ -39,10 +41,15 @@ function printChart() {
          if (!response.ok) {
              throw new Error("HTTP error " + response.status);
          }
-         return response.text();
+         return response.json();
      })
-     .then(text => {
-         console.log(text)
+     .then(jsonanswer => {
+        timespans = [];
+        for (var i = 0; i < jsonanswer.length; i++) {
+            // var date = new Date(dateString);
+            timespans.push(jsonanswer[i]["TIMESTAMP"]);
+        }
+        console.log(jsonanswer);
      })
      .catch(function () {
          this.dataError = true;
@@ -75,7 +82,7 @@ function printChart() {
     new Chart(ctx, {
         type: 'line',
         data: {
-            labels: [dateValues[0].innerHTML, dateValues[1].innerHTML],
+            labels: [timespans[0], timespans[timespans.length - 1]],
             datasets: [{
                 data: [4.7, 10.8, 4.9, 5.0, 5.1, 5.2, 5.1, 5.0, 4.9, 4.8, 4.9, 4.8, 4.7, 4.6, 4.5],
                 label: "Outside",
@@ -113,5 +120,10 @@ dateSlider.noUiSlider.on('update', function(values, handle) {
 
 printChart();
 dateSlider.noUiSlider.on('change', function(values, handle) {
+    dateValues = [
+        document.getElementById('event-start'),
+        document.getElementById('event-end')
+    ];
+
     printChart();
 });
