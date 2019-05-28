@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nouislider.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script> -->
+    <!-- <script src="../js/nouislider.min.js"></script> -->
+
+    <title>IoT - Heating stats: Description</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="general.html">General information</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="usage.html">Usage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="positive.html">Positive aspects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="negative.html">Negative aspects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="dashbutton.html">Dash button</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="discussion.html">Discussion</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<article>
+    <h1>Heating stats: Description</h1>
+    <p>Backend description for the "Heating stats" page.</p>
+    <img src="../img/description-transparent.png" alt="Diagram">
+    <p>The <a href="https://fhem.de/">FHEM home automation server</a> queries the data from the heating system via an RS232 serial server running on a Raspberry Pi.<br>
+    FHEM also generates the plots and uploads the queried data to an external web server.</p>
+    <p>The reverse engineered protocol used by the control unit is described <a href="https://github.com/Zadolux/fhem-waterkotte-resuemat-cd4">here</a>.<br>
+        It consists of several actions (read, write, set time/date) and uses the <a href="https://github.com/Zadolux/fhem-waterkotte-resuemat-cd4/blob/master/address-list-8011.pdf">internal memory addresses</a> of the microcomputer.</p>
+</article>
+<script src="../js/sliderchart.js"></script>
+<script src="../js/data-grabber.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
