@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
+      <script src="../js/popper.min.js"></script>
       <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
       <link rel="stylesheet" href="../css/nouislider.min.css">
@@ -11,8 +12,13 @@
       <script src="../js/nouislider.min.js"></script>
       <script src="../js/data-grabber.js"></script>
       <script src="../js/wNumb.js"></script>
-
+      <script type="text/javascript">
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        });
+      </script>
       <title>IoT: Heating stats</title>
+
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-success">
@@ -106,11 +112,11 @@
                   <td id="cpu-time">Loading...</td>
                </tr>
                <tr>
-                  <td title="During the day - between 5am and 9pm - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 23°C is reached.">Heating during the day</td>
+                  <td data-toggle="tooltip" data-placement="right" title="During the day - between 5am and 9pm - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 23°C is reached.">Heating during the day</td>
                   <td id="ht-inc-off">Loading...</td>
                </tr>
                <tr>
-                  <td title="At night - between 9pm and 5am - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 21°C is reached.">Heating at night</td>
+                  <td data-toggle="tooltip" data-placement="right" title="At night - between 9pm and 5am - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 21°C is reached.">Heating at night</td>
                   <td id="ht-inc-on">Loading...</td>
                </tr>
                <tr>
