@@ -1,4 +1,13 @@
-var timespans = [];
+var timespans;
+var outsideData;
+var heatingFlowData;
+var returnFlowData;
+var warmWaterData;
+
+var outsideTemperatures = [];
+var heatingFlowTemperatures = [];
+var returnFlowTemperatures = [];
+var warmWaterTemperatures = [];
 
 function timestamp(str) {
     return new Date(str).getTime();
@@ -35,71 +44,76 @@ var dateValues = [
     document.getElementById('event-end')
 ];
 
-function printChart() {
-       fetch('http://heating.wllgrsrv.cf/?from=' + dateValues[0].innerHTML + '&to=' + dateValues[1].innerHTML)
-     .then(response => {
-         if (!response.ok) {
-             throw new Error("HTTP error " + response.status);
-         }
-         return response.json();
-     })
-     .then(jsonanswer => {
-        timespans = [];
-        for (var i = 0; i < jsonanswer.length; i++) {
-            // var date = new Date(dateString);
-            timespans.push(jsonanswer[i]["TIMESTAMP"]);
-        }
-        console.log(jsonanswer);
-     })
-     .catch(function () {
-         this.dataError = true;
-     });
+async function printChart() {
+    await fetch('http://heating.wllgrsrv.cf/?from=' + dateValues[0].innerHTML + '&to=' + dateValues[1].innerHTML)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+            return response.json();
+        })
+        .then(jsonanswer => {
+            timespans = [];
+            outsideTemperatures = [];
+            heatingFlowTemperatures = [];
+            returnFlowTemperatures = [];
+            warmWaterTemperatures = [];
+            outsideData = jsonanswer.filter(d => d.READING === 'Temp-Aussen');
+            heatingFlowData = jsonanswer.filter(d => d.READING === 'Temp-Vorlauf');
+            returnFlowData = jsonanswer.filter(d => d.READING === 'Temp-Ruecklauf');
+            warmWaterData = jsonanswer.filter(d => d.READING === 'Ww-Temp');
 
-  var data = {
-    labels: [],
-    datasets: [
-      {
-        label: "Temperature",
-        fillColor: "rgba(220, 220, 220, 0.2)",
-        strokeColor: "rgba(1, 1, 1, 1)",
-        pointColor: "rgba(1, 1, 1, 1)",
-        pointStrokeColor: "rgba(1, 1, 1, 1)",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(220, 220, 220, 1)",
-        data: []
-      },
-      {}
-    ]
-  };
-
-    var outsideData = [];
-    var heatingFlowData = [];
-    var returnFlowData = [];
-    var warmWaterData = [];
+            for (var i = 0; i <= 20; i++) {
+                // var date = new Date(dateString);
+                timespans.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["TIMESTAMP"]);
+                outsideTemperatures.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["VALUE"]);
+                heatingFlowTemperatures.push(heatingFlowData[Math.floor(((heatingFlowData.length - 1) / 20) * i)]["VALUE"]);
+                returnFlowTemperatures.push(returnFlowData[Math.floor(((returnFlowData.length - 1) / 20) * i)]["VALUE"]);
+                warmWaterTemperatures.push(warmWaterData[Math.floor(((warmWaterData.length - 1) / 20) * i)]["VALUE"]);
+            }
+        })
+        .catch(function() {
+            this.dataError = true;
+        });
+    var data = {
+        labels: [],
+        datasets: [{
+                label: "Temperature",
+                fillColor: "rgba(220, 220, 220, 0.2)",
+                strokeColor: "rgba(1, 1, 1, 1)",
+                pointColor: "rgba(1, 1, 1, 1)",
+                pointStrokeColor: "rgba(1, 1, 1, 1)",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220, 220, 220, 1)",
+                data: []
+            },
+            {}
+        ]
+    };
 
     var ctx = document.getElementById("tempChart").getContext("2d");
 
     new Chart(ctx, {
         type: 'line',
         data: {
-            labels: [timespans[0], timespans[timespans.length - 1]],
+            labels: timespans,
             datasets: [{
-                data: [4.7, 10.8, 4.9, 5.0, 5.1, 5.2, 5.1, 5.0, 4.9, 4.8, 4.9, 4.8, 4.7, 4.6, 4.5],
+                data: outsideTemperatures,
                 label: "Outside",
                 borderColor: "#3e95cd",
                 fill: false
             }, {
-                data: [28.3, 26.8, 26.4, 26.3, 26.1, 30.8, 31.1, 31.2, 32.0, 32.7, 33.1, 33.3],
+                data: heatingFlowTemperatures,
                 label: "Heating flow",
                 borderColor: "#8e5ea2",
                 fill: false
             }, {
-                data: [26.2, 25.9, 25.8, 25.9, 26.6, 27.1, 27.5, 27.7, 27.8, 27.5, 27.9, 28.1],
+                data: returnFlowTemperatures,
                 label: "Return flow",
                 borderColor: "#3cba9f",
                 fill: false
             }, {
-                data: [47.7, 47.8, 47.7, 47.8, 47.7, 47.6, 47.7, 47.5, 47.6, 47.8, 47.9, 47.8],
+                data: warmWaterTemperatures,
                 label: "Warm water",
                 borderColor: "#e8c3b9",
                 fill: false
@@ -120,10 +134,7 @@ dateSlider.noUiSlider.on('update', function(values, handle) {
 
 printChart();
 dateSlider.noUiSlider.on('change', function(values, handle) {
-    dateValues = [
-        document.getElementById('event-start'),
-        document.getElementById('event-end')
-    ];
+    dateValues[handle].innerHTML = formatDate(new Date(+values[handle]));
 
     printChart();
 });

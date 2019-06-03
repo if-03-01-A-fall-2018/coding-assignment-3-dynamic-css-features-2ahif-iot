@@ -7,8 +7,8 @@
       <link rel="stylesheet" href="../css/nouislider.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script> -->
-      <!-- <script src="../js/nouislider.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+      <script src="../js/nouislider.min.js"></script>
       <script src="../js/data-grabber.js"></script>
       <script src="../js/wNumb.js"></script>
 
@@ -129,17 +129,12 @@
             The displayed data is called up every minute.
             Data source: <a href="https://www.wallinger-online.at/heating">wallinger-online.at/heating</a>
          </p>
-
-          <p><b>Select time: </b><input type="radio" name="time" checked onclick="handleClick(this);" value="day"> Day <input type="radio" name="time" checked onclick="handleClick(this);" value="qday"> Day partly <input type="radio" name="time" onclick="handleClick(this);" value="hour"> Hour<br>
-          <b>Offset: </b><input type="number" onchange="handleOffset(this)" value="0">
-          </p>
-          <!-- <p>Choose the time span for the diagram:</p>
+         <p>Choose the time span for the diagram:</p>
          <div id="slider-date"></div>
          <p><strong>Start: </strong><span class="example-val" id="event-start"></span><br />
             <strong>End: </strong><span class="example-val" id="event-end"></span>
          </p>
-         <canvas id="tempChart"></canvas> -->
-         <div id="plots"></div>
+         <canvas id="tempChart"></canvas>
       </article>
       <script src="../js/sliderchart.js"></script>
       <script src="../js/data-grabber.js"></script>
