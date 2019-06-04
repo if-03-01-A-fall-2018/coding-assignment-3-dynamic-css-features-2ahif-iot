@@ -19,29 +19,6 @@ function runDataGrabber() {
      .catch(function () {
          this.dataError = true;
      });
-
-     fetchPlot();
-    }
-
-    function fetchPlot() {
-        if(!requesting) {
-            document.getElementById("plots").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>' + document.getElementById("plots").innerHTML;
-            fetch('http://heating.wllgrsrv.cf/plots/?offset=' + offset + '&zoom=' + time)
-                .then(response => {
-                    requesting = true;
-                    if (!response.ok) {
-                        throw new Error("HTTP error " + response.status);
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    requesting = false;
-                    document.getElementById("plots").innerHTML = data;
-                })
-                .catch(function () {
-                    let dataError = true;
-                });
-        }
     }
     
     function replaceData() {
@@ -67,12 +44,10 @@ function runDataGrabber() {
 
     function handleClick(myRadio) {
         time = myRadio.value;
-        fetchPlot();
     }
 
     function handleOffset(myTxt) {
         offset = myTxt.value;
-        fetchPlot();
     }
 
 runDataGrabber();
