@@ -45,7 +45,7 @@ noUiSlider.create(dateSlider, {
         max: timestamp(getTodayDateString())
     },
     step: 24 * 60 * 60 * 1000,
-    start: [timestamp('2019-05-06'), timestamp('2019-05-08')],
+    start: [timestamp('2019-06-07'), timestamp(getTodayDateString())],
     format: wNumb({
         decimals: 0
     })
