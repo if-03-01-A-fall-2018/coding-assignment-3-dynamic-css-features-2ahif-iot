@@ -45,6 +45,7 @@ var dateValues = [
 ];
 
 async function printChart() {
+    document.getElementById("message").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>';
     await fetch('http://heating.wllgrsrv.cf/?from=' + dateValues[0].innerHTML + '&to=' + dateValues[1].innerHTML)
         .then(response => {
             if (!response.ok) {
@@ -71,6 +72,7 @@ async function printChart() {
                 returnFlowTemperatures.push(returnFlowData[Math.floor(((returnFlowData.length - 1) / 20) * i)]["VALUE"]);
                 warmWaterTemperatures.push(warmWaterData[Math.floor(((warmWaterData.length - 1) / 20) * i)]["VALUE"]);
             }
+            document.getElementById("message").innerHTML = '';
         })
         .catch(function() {
             this.dataError = true;
