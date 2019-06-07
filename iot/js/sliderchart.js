@@ -9,8 +9,20 @@ var heatingFlowTemperatures = [];
 var returnFlowTemperatures = [];
 var warmWaterTemperatures = [];
 
+var chart;
+
 function timestamp(str) {
     return new Date(str).getTime();
+}
+
+function getTodayDateString()
+{
+    var today = new Date();
+    var dd = String(today.getDate() + 1).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    return yyyy + "-" + mm + "-" + dd;
 }
 
 function formatDate(date) {
@@ -30,7 +42,7 @@ var dateSlider = document.getElementById('slider-date');
 noUiSlider.create(dateSlider, {
     range: {
         min: timestamp('2019-05-06'),
-        max: timestamp('2019-06-01')
+        max: timestamp(getTodayDateString())
     },
     step: 24 * 60 * 60 * 1000,
     start: [timestamp('2019-05-06'), timestamp('2019-05-08')],
@@ -95,7 +107,11 @@ async function printChart() {
 
     var ctx = document.getElementById("tempChart").getContext("2d");
 
-    new Chart(ctx, {
+    if (chart) {
+        chart.destroy();
+    }
+
+    chart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: timespans,
