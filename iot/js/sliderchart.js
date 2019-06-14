@@ -15,8 +15,7 @@ function timestamp(str) {
     return new Date(str).getTime();
 }
 
-function getTodayDateString()
-{
+function getTodayDateString() {
     var today = new Date();
     var dd = String(today.getDate() + 1).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -45,7 +44,7 @@ noUiSlider.create(dateSlider, {
         max: timestamp(getTodayDateString())
     },
     step: 24 * 60 * 60 * 1000,
-    start: [timestamp('2019-06-07'), timestamp(getTodayDateString())],
+    start: [timestamp('2019-06-14'), timestamp(getTodayDateString())],
     format: wNumb({
         decimals: 0
     })
@@ -89,21 +88,6 @@ async function printChart() {
         .catch(function() {
             this.dataError = true;
         });
-    var data = {
-        labels: [],
-        datasets: [{
-                label: "Temperature",
-                fillColor: "rgba(220, 220, 220, 0.2)",
-                strokeColor: "rgba(1, 1, 1, 1)",
-                pointColor: "rgba(1, 1, 1, 1)",
-                pointStrokeColor: "rgba(1, 1, 1, 1)",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(220, 220, 220, 1)",
-                data: []
-            },
-            {}
-        ]
-    };
 
     var ctx = document.getElementById("tempChart").getContext("2d");
 
