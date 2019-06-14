@@ -56,7 +56,7 @@ var dateValues = [
 ];
 
 async function printChart() {
-    document.getElementById("message").innerHTML = '<span class="badge badge-success">Die Daten werden geladen...</span><br>';
+    document.getElementById("message").innerHTML = '<span class="badge badge-success">Loading data...</span><br>';
     await fetch('http://heating.wllgrsrv.cf/?from=' + dateValues[0].innerHTML + '&to=' + dateValues[1].innerHTML)
         .then(response => {
             if (!response.ok) {

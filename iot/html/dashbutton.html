@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>IoT: Dash button</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-light" href="general.html">General information</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="usage.html">Usage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="positive.html">Positive aspects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="negative.html">Negative aspects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="dashbutton.html">Dash button</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="discussion.html">Discussion</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="general.html">General information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="usage.html">Usage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="positive.html">Positive aspects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="negative.html">Negative aspects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="dashbutton.html">Dash button</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="discussion.html">Discussion</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <article>
-      <h1>Dash button</h1>
-      <section>
-        <h2>Demonstration</h2>
-        <img src="https://cdn-images-1.medium.com/max/1200/1*fCeBKzPkWU9Zd5tgcM7a7A.png" alt="Picture of some Dash buttons" title="Picture of Dash buttons" class="img-float-right img-fluid">
-        <p>We'll buy a Dash button and show how it works.</p>
-        <p>The intended use for an Amazon Dash button is to buy a product just by tapping on the button.<br>
-          This can't be done with magic. It has to connect to the internet using a WiFi network.<br>
-          After that, it automatically orders the selected product.
-        </p>
-        <h2>"Hacking" it</h2>
-        <p>People across the internet found ways to use the Dash button for their own projects.<br>
-          The button replies to ping/ICMP requests and gets an IP address via DHCP.
-        </p>
-        <p><b>Pinging the button</b> every X seconds is a nice way to detect a button press.<br>
-          A Raspberry Pi or another server could then execute a specified task, e.g. turning the lights on.
-        </p>
-        <p>After integrating it into a running system, disallowing internet access wouldn't be a bad idea.<br>
-          Why? Amazon doesn't have to trace every button press.
-        </p>
-      </section>
+        <h1>Dash button</h1>
+        <section>
+            <h2>Demonstration</h2>
+            <img src="https://cdn-images-1.medium.com/max/1200/1*fCeBKzPkWU9Zd5tgcM7a7A.png" alt="Picture of some Dash buttons" title="Picture of Dash buttons" class="img-float-right img-fluid">
+            <p>The intended use for an Amazon Dash button is to buy a product just by tapping on the button.<br> This can't be done with magic. It has to connect to the internet using a WiFi network.<br> After that, it automatically orders the selected product.
+            </p>
+            <h2>"Hacking" it</h2>
+            <p>People across the internet found ways to use the Dash button for their own projects.<br> The button replies to ping/ICMP requests and gets an IP address via DHCP.
+            </p>
+            <p><b>Pinging the button</b> every X seconds is a nice way to detect a button press.<br> A Raspberry Pi or another server could then execute a specified task, e.g. turning the lights on.
+            </p>
+            <p>After integrating it into a running system, disallowing internet access wouldn't be a bad idea.<br> Why? Amazon doesn't have to trace every button press.
+            </p>
+            <h2>It's against the law</h2>
+            <p>A German consumer protection organisation complained that Amazon's terms enable the company to switch out an ordered product with something else. The organisation also stated that the buttons break laws protecting shoppers from buying things
+                they are not fully informed about.<br> The Munich court ruled that the Dash buttons break consumer protection laws.</p>
+        </section>
     </article>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
