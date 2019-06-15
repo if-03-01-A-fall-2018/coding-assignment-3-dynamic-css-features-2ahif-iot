@@ -1,10 +1,10 @@
+/*
+    Data grabber
+    --> Gets the current heating stats every minute
+*/
 var heatingData;
-var time = "day";
-var offset = "0";
-var requesting = false;
 
 function runDataGrabber() {
-
     fetch('https://www.wallinger-online.at/heating/')
         .then(response => {
             if (!response.ok) {
@@ -40,14 +40,6 @@ function replaceData() {
 
     document.getElementById("time").innerHTML = heatingData.Results[0].Readings["Uhrzeit"].Value;
     document.getElementById("date").innerHTML = heatingData.Results[0].Readings["Datum"].Value;
-}
-
-function handleClick(myRadio) {
-    time = myRadio.value;
-}
-
-function handleOffset(myTxt) {
-    offset = myTxt.value;
 }
 
 runDataGrabber();
