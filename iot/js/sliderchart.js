@@ -7,20 +7,20 @@
 const DATA_URL = "http://heating.wllgrsrv.cf";
 const DATA_START_DATE = "2019-05-06";
 
-var timespans;
-var outsideData;
-var heatingFlowData;
-var returnFlowData;
-var warmWaterData;
+let timespans;
+let outsideData;
+let heatingFlowData;
+let returnFlowData;
+let warmWaterData;
 
 // Arrays for temp. data
-var outsideTemperatures = [];
-var heatingFlowTemperatures = [];
-var returnFlowTemperatures = [];
-var warmWaterTemperatures = [];
+let outsideTemperatures = [];
+let heatingFlowTemperatures = [];
+let returnFlowTemperatures = [];
+let warmWaterTemperatures = [];
 
 // Chart element (<canvas>)
-var chart;
+let chart;
 
 // String to timestamp
 function timestamp(str) {
@@ -30,7 +30,7 @@ function timestamp(str) {
 // Formats a date object to
 // YYYY-MM-DD
 function formatDate(date) {
-    var d = new Date(date),
+    let d = new Date(date),
         month = '' + (d.getMonth() + 1),
         day = '' + d.getDate(),
         year = d.getFullYear();
@@ -41,7 +41,7 @@ function formatDate(date) {
     return [year, month, day].join('-');
 }
 
-var dateSlider = document.getElementById('slider-date');
+let dateSlider = document.getElementById('slider-date');
 
 // Creates the slider
 noUiSlider.create(dateSlider, {
@@ -58,7 +58,7 @@ noUiSlider.create(dateSlider, {
     })
 });
 
-var dateValues = [
+let dateValues = [
     document.getElementById('event-start'),
     document.getElementById('event-end')
 ];
@@ -85,7 +85,7 @@ async function printChart() {
             returnFlowData = jsonanswer.filter(d => d.READING === 'Temp-Ruecklauf');
             warmWaterData = jsonanswer.filter(d => d.READING === 'Ww-Temp');
 
-            for (var i = 0; i <= 20; i++) {
+            for (let i = 0; i <= 20; i++) {
                 timespans.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["TIMESTAMP"]);
                 outsideTemperatures.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["VALUE"]);
                 heatingFlowTemperatures.push(heatingFlowData[Math.floor(((heatingFlowData.length - 1) / 20) * i)]["VALUE"]);
@@ -99,7 +99,7 @@ async function printChart() {
             this.dataError = true;
         });
 
-    var ctx = document.getElementById("tempChart").getContext("2d");
+    let ctx = document.getElementById("tempChart").getContext("2d");
 
     // Recreate chart if it was initialized before
     if (chart) {

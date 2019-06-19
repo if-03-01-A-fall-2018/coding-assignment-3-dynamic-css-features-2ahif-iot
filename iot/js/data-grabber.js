@@ -2,7 +2,7 @@
     Data grabber
     --> Gets the current heating stats every minute
 */
-var heatingData;
+let heatingData;
 
 function runDataGrabber() {
     fetch('https://www.wallinger-online.at/heating/')
@@ -43,4 +43,4 @@ function replaceData() {
 }
 
 runDataGrabber();
-var timer = setInterval(runDataGrabber, 60 * 1000);
+let timer = setInterval(runDataGrabber, 60 * 1000);
