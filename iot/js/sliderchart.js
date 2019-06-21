@@ -47,12 +47,12 @@ let dateSlider = document.getElementById('slider-date');
 noUiSlider.create(dateSlider, {
     range: {
         min: timestamp(DATA_START_DATE),
-        max: timestamp(formatDate(new Date()))
+        max: timestamp(formatDate(new Date(new Date().setDate(new Date().getDate()+1))))
     },
     step: 24 * 60 * 60 * 1000,
     // Select 2 days before current date by default
-    start: [timestamp(formatDate(new Date(new Date().setDate(new Date().getDate()-1)))),
-        timestamp(formatDate(new Date()))],
+    start: [timestamp(formatDate(new Date(new Date().setDate(new Date().getDate())))),
+        timestamp(formatDate(new Date(new Date().setDate(new Date().getDate()+1))))],
     format: wNumb({
         decimals: 0
     })
