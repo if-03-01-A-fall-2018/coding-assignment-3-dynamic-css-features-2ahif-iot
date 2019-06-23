@@ -87,11 +87,11 @@ async function printChart() {
             warmWaterData = jsonanswer.filter(d => d.READING === 'Ww-Temp');
 
             for (let i = 0; i <= ELEMENTS_COUNT; i++) {
-                timespans.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["TIMESTAMP"]);
-                outsideTemperatures.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["VALUE"]);
-                heatingFlowTemperatures.push(heatingFlowData[Math.floor(((heatingFlowData.length - 1) / 20) * i)]["VALUE"]);
-                returnFlowTemperatures.push(returnFlowData[Math.floor(((returnFlowData.length - 1) / 20) * i)]["VALUE"]);
-                warmWaterTemperatures.push(warmWaterData[Math.floor(((warmWaterData.length - 1) / 20) * i)]["VALUE"]);
+                timespans.push(outsideData[Math.floor(((outsideData.length - 1) / ELEMENTS_COUNT) * i)]["TIMESTAMP"]);
+                outsideTemperatures.push(outsideData[Math.floor(((outsideData.length - 1) / ELEMENTS_COUNT) * i)]["VALUE"]);
+                heatingFlowTemperatures.push(heatingFlowData[Math.floor(((heatingFlowData.length - 1) / ELEMENTS_COUNT) * i)]["VALUE"]);
+                returnFlowTemperatures.push(returnFlowData[Math.floor(((returnFlowData.length - 1) / ELEMENTS_COUNT) * i)]["VALUE"]);
+                warmWaterTemperatures.push(warmWaterData[Math.floor(((warmWaterData.length - 1) / ELEMENTS_COUNT) * i)]["VALUE"]);
             }
             // Set loader to invisible
             document.getElementById("message").innerHTML = '';
