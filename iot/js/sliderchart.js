@@ -6,6 +6,7 @@
 // Constants
 const DATA_URL = "http://heating.wllgrsrv.cf";
 const DATA_START_DATE = "2019-05-06";
+const ELEMENTS_COUNT = 20;
 
 let timespans;
 let outsideData;
@@ -85,7 +86,7 @@ async function printChart() {
             returnFlowData = jsonanswer.filter(d => d.READING === 'Temp-Ruecklauf');
             warmWaterData = jsonanswer.filter(d => d.READING === 'Ww-Temp');
 
-            for (let i = 0; i <= 20; i++) {
+            for (let i = 0; i <= ELEMENTS_COUNT; i++) {
                 timespans.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["TIMESTAMP"]);
                 outsideTemperatures.push(outsideData[Math.floor(((outsideData.length - 1) / 20) * i)]["VALUE"]);
                 heatingFlowTemperatures.push(heatingFlowData[Math.floor(((heatingFlowData.length - 1) / 20) * i)]["VALUE"]);
