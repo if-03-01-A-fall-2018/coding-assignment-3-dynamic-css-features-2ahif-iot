@@ -148,3 +148,7 @@ div.links:hover{
 #slider-date {
   margin-right: 10px;
 }
+
+div.center {
+  text-align: center;
+}

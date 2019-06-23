@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <script src="../js/popper.min.js"></script>
-      <link rel="stylesheet" href="../css/style.css">
-      <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-      <link rel="stylesheet" href="../css/nouislider.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
-      <script src="../js/nouislider.min.js"></script>
-      <script src="../js/data-grabber.js"></script>
-      <script src="../js/wNumb.js"></script>
-      <script>
-        $(function () {
-          $('[data-toggle="tooltip"]').tooltip()
-        });
-      </script>
-      <title>IoT: Heating stats</title>
 
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-success">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+   <meta charset="utf-8">
+   <script src="../js/popper.min.js"></script>
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/nouislider.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+   <script src="../js/nouislider.min.js"></script>
+   <script src="../js/data-grabber.js"></script>
+   <script src="../js/wNumb.js"></script>
+   <script>
+      $(function () {
+         $('[data-toggle="tooltip"]').tooltip()
+      });
+   </script>
+   <title>IoT: Heating stats</title>
+
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
-         </button>
-         <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="general.html">General information</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="usage.html">Usage</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="positive.html">Positive aspects</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="negative.html">Negative aspects</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="dashbutton.html">Dash button</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link text-light" href="discussion.html">Discussion</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <article>
+      </button>
+      <a class="navbar-brand text-light active" href="../index.html">Internet of Things</a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link text-light" href="general.html">General information</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="usage.html">Usage</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="positive.html">Positive aspects</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="negative.html">Negative aspects</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="dashbutton.html">Dash button</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="discussion.html">Discussion</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <article>
+      <div class="center">
          <h1>Heating stats</h1>
          <p>Live data requested from a heating system in Abtenau, Austria.</p>
          <p></p>
-             <p></p>
+         <p></p>
          <table>
             <thead>
                <tr>
@@ -112,11 +115,15 @@
                   <td id="cpu-time">Loading...</td>
                </tr>
                <tr>
-                  <td data-toggle="tooltip" data-placement="right" title="During the day - between 5am and 9pm - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 23°C is reached.">Heating during the day</td>
+                  <td data-toggle="tooltip" data-placement="right"
+                     title="During the day - between 5am and 9pm - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 23°C is reached.">
+                     Heating during the day</td>
                   <td id="ht-inc-off">Loading...</td>
                </tr>
                <tr>
-                  <td data-toggle="tooltip" data-placement="right" title="At night - between 9pm and 5am - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 21°C is reached.">Heating at night</td>
+                  <td data-toggle="tooltip" data-placement="right"
+                     title="At night - between 9pm and 5am - the heating system starts working when the outside temperature is below 16°C and turns off when an inside temperature of 21°C is reached.">
+                     Heating at night</td>
                   <td id="ht-inc-on">Loading...</td>
                </tr>
                <tr>
@@ -130,20 +137,24 @@
             </tbody>
          </table>
          <p style="margin-top: 1em">
-            <b>Data requested on:</b> <span id="date">(no request sent yet)</span> <b>at:</b> <span id="time">(no request sent yet)</span>
+            <b>Data requested on:</b> <span id="date">(no request sent yet)</span> <b>at:</b> <span id="time">(no
+               request sent yet)</span>
             <br>
-            The displayed data is called up every minute. Check out our <a href="description.html">description page</a> for more information.
+            The displayed data is called up every minute. Check out our <a href="description.html">description page</a>
+            for more information.
          </p>
-         <p>Choose the time span for the diagram:</p>
-         <div id="slider-date"></div>
-         <p><strong>Start: </strong><span class="example-val" id="event-start"></span><br />
-            <strong>End (excl.): </strong><span class="example-val" id="event-end"></span>
-         </p>
-         <div id="message"></div>
-         <canvas id="tempChart"></canvas>
-      </article>
-      <script src="../js/sliderchart.js"></script>
-      <script src="../js/data-grabber.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-   </body>
+      </div>
+      <p>Choose the time span for the diagram:</p>
+      <div id="slider-date"></div>
+      <p><strong>Start: </strong><span class="example-val" id="event-start"></span><br />
+         <strong>End (excl.): </strong><span class="example-val" id="event-end"></span>
+      </p>
+      <div id="message"></div>
+      <canvas id="tempChart"></canvas>
+   </article>
+   <script src="../js/sliderchart.js"></script>
+   <script src="../js/data-grabber.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
